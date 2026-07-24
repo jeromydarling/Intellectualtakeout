@@ -54,6 +54,26 @@ stored in the repo). After deploying content changes, refresh the index with
 `REINDEX_TOKEN=… ./scripts/reindex-search.sh https://intellectualtakeout.org`
 (or reindex only changed chunks). Queries: `GET /api/search?q=…&page=N`.
 
+## Feature APIs (worker)
+
+- `GET /api/ask?q=&answer=1` — semantic search (+ cited answer). Index lives in
+  R2 `ask-index/`; rebuild after content changes: `POST /api/ask/embed?chunk=N`
+  for new chunks then `POST /api/ask/build` (admin token).
+- `GET /api/related?url=` — embedding nearest-neighbors, powers article
+  "Read More" via client fetch.
+- `GET /api/mostread?window=24h|7d|30d` — real read counts (worker counts
+  every article view into D1 `page_views`; no cookies).
+- `GET /og/<article-path>card.png`, `/og/quote.png?text=` — edge-generated
+  share cards (workers-og), cached in R2 `og-cache/`.
+- `/audio/<article-path>.mp3`, `/podcast.xml` — TTS narration (Workers AI
+  melotts) from R2 `audio/`; the half-hourly cron narrates one article per
+  run, newest first; `POST /api/audio/generate?path=` (admin) for a specific one.
+- Newsletter: subscribers carry `frequency` (daily/weekly) and `categories`;
+  daily digest cron 12:00 UTC, weekly best-of Sun 13:00 UTC, both with an
+  AI editor's intro and a From-the-Archive slot.
+- Curated collections: `src/content/collections/*.md` (frontmatter
+  `articleUrls`) render at `/collections/<slug>/`.
+
 ## Commands
 
 - `npm run build` — full static build (~6 min, ~13k pages). Cloudflare Workers

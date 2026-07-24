@@ -30,4 +30,16 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { articles, pages };
+const curated = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/collections' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    intro: z.string().optional(),
+    heroImage: z.string().optional(),
+    articleUrls: z.array(z.string()),
+    updated: z.coerce.date().optional(),
+  }),
+});
+
+export const collections = { articles, pages, curated };

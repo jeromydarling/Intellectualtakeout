@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base title="Share a Quote" noindex>
+  <div class="container">
+    <main style="max-width:760px;margin:0 auto;padding:40px 0 60px;text-align:center;">
+      <h1 class="box_header" style="text-align:left;">Share this quote</h1>
+      <img id="quote-img" alt="Quote card" style="width:100%;border:1px solid #e5e5e5;" />
+      <div class="share_bar" style="justify-content:center;">
+        <a id="q-download" download="intellectual-takeout-quote.png">Download Image</a>
+        <a id="q-x" target="_blank" rel="noopener">Share on X</a>
+        <a id="q-facebook" target="_blank" rel="noopener">Share on Facebook</a>
+        <a id="q-article">Back to Article</a>
+      </div>
+    </main>
+  </div>
+</Base>
+
+<script>
+  const p = new URLSearchParams(location.search);
+  const text = p.get('text') ?? '';
+  const title = p.get('title') ?? '';
+  const author = p.get('author') ?? '';
+  const article = p.get('article') ?? '/';
+  const img = new URLSearchParams({ text, title, author });
+  const imgUrl = `/og/quote.png?${img}`;
+  (document.getElementById('quote-img') as HTMLImageElement).src = imgUrl;
+  (document.getElementById('q-download') as HTMLAnchorElement).href = imgUrl;
+  const articleUrl = `${location.origin}${article}`;
+  (document.getElementById('q-x') as HTMLAnchorElement).href =
+    `https://twitter.com/intent/tweet?text=${encodeURIComponent(`“${text}” — ${author}`)}&url=${encodeURIComponent(articleUrl)}`;
+  (document.getElementById('q-facebook') as HTMLAnchorElement).href =
+    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}`;
+  (document.getElementById('q-article') as HTMLAnchorElement).href = article;
+</script>

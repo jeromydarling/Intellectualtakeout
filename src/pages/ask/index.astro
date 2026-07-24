@@ -1,0 +1,104 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base
+  title="Ask the Archive"
+  description="Ask a question and get an answer drawn from 20 years of Intellectual Takeout articles, with citations."
+>
+  <div class="container">
+    <main style="max-width:760px;margin:0 auto;padding:40px 0 60px;">
+      <h1 class="box_header">Ask the Archive</h1>
+      <p style="font-size:19px;line-height:1.5;margin-bottom:18px;">
+        Ask a question and get an answer drawn only from Intellectual Takeout's
+        10,000+ articles — with citations, so you can read the originals.
+      </p>
+      <form id="ask-form" style="display:flex;gap:8px;">
+        <input
+          id="ask-input"
+          type="search"
+          placeholder="e.g. Why should children read old books?"
+          autocomplete="off"
+          style="flex:1;padding:13px 14px;border:1px solid #d5d5d5;font-family:var(--sans);font-size:14px;"
+        />
+        <button
+          type="submit"
+          style="background:#2e3e42;color:#fff;border:0;padding:0 24px;font-family:var(--sans);text-transform:uppercase;font-size:11px;letter-spacing:1px;cursor:pointer;"
+        >
+          Ask
+        </button>
+      </form>
+      <p id="ask-status" class="form_note" aria-live="polite"></p>
+      <div id="ask-answer" class="ask_answer" style="display:none;"></div>
+      <div id="ask-results"></div>
+    </main>
+  </div>
+</Base>
+
+<script>
+  const form = document.getElementById('ask-form') as HTMLFormElement;
+  const input = document.getElementById('ask-input') as HTMLInputElement;
+  const status = document.getElementById('ask-status') as HTMLElement;
+  const answerEl = document.getElementById('ask-answer') as HTMLElement;
+  const resultsEl = document.getElementById('ask-results') as HTMLElement;
+
+  function esc(s: string): string {
+    const d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  async function run(q: string) {
+    if (!q.trim()) return;
+    status.textContent = 'Consulting the archive… (this can take a few seconds)';
+    answerEl.style.display = 'none';
+    resultsEl.innerHTML = '';
+    const u = new URL(location.href);
+    u.searchParams.set('q', q);
+    history.replaceState(null, '', u);
+    try {
+      const r = await fetch(`/api/ask?q=${encodeURIComponent(q)}&answer=1`);
+      const data = await r.json();
+      if (!r.ok) {
+        status.textContent = data.error === 'index_not_built'
+          ? 'The archive index is still being built — try the regular search for now.'
+          : 'Something went wrong — please try again.';
+        return;
+      }
+      status.textContent = '';
+      if (data.answer) {
+        let html = esc(data.answer).replace(/\[(\d+)\]/g, (_: string, n: string) => {
+          const src = data.sources?.find((s: any) => s.n === Number(n));
+          return src ? `<sup><a href="${esc(src.url)}" title="${esc(src.title)}">[${n}]</a></sup>` : `[${n}]`;
+        });
+        answerEl.innerHTML = html.replace(/\n\n/g, '<br/><br/>') +
+          `<div class="ask_sources"><strong>Sources:</strong>` +
+          (data.sources ?? []).map((s: any) => `<a href="${esc(s.url)}">[${s.n}] ${esc(s.title)}</a>`).join('') +
+          `</div>`;
+        answerEl.style.display = 'block';
+      }
+      resultsEl.innerHTML =
+        `<h2 class="box_header">Related articles</h2>` +
+        data.results
+          .slice(0, 8)
+          .map(
+            (hit: any) => `
+        <article class="search_hit">
+          <h2><a href="${esc(hit.url)}">${esc(hit.title)}</a></h2>
+          <div class="meta">${esc(hit.author ?? '')} · ${esc((hit.pubDate ?? '').slice(0, 10))}</div>
+        </article>`
+          )
+          .join('');
+    } catch {
+      status.textContent = 'Something went wrong — please try again.';
+    }
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    run(input.value);
+  });
+  const q0 = new URLSearchParams(location.search).get('q');
+  if (q0) { input.value = q0; run(q0); }
+  input.focus();
+</script>

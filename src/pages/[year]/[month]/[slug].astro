@@ -45,7 +45,7 @@ const initials = d.author.split(/\s+/).map((w) => w[0]).slice(0, 2).join('').toU
   description={d.description}
   canonical={canonical}
   ogType="article"
-  ogImage={d.heroImage}
+  ogImage={`/og${articlePath(article)}card.png`}
   jsonLd={jsonLd}
 >
   <Fragment slot="head">
@@ -77,6 +77,11 @@ const initials = d.author.split(/\s+/).map((w) => w[0]).slice(0, 2).join('').toU
           </div>
         )}
 
+        <div class="audio_box" data-audio-box>
+          <span class="label">Listen to this article</span>
+          <audio controls preload="none" data-audio-player></audio>
+        </div>
+
         <div class="author_box">
           <div class="avatar" aria-hidden="true">{initials}</div>
           <div class="name">{d.author}</div>
@@ -86,6 +91,14 @@ const initials = d.author.split(/\s+/).map((w) => w[0]).slice(0, 2).join('').toU
 
         <div class="article_body">
           <Content />
+        </div>
+
+        <div class="share_bar" data-share-bar data-title={d.title} data-author={d.author}>
+          <span class="label">Share:</span>
+          <a data-share="x" href="#" target="_blank" rel="noopener">X</a>
+          <a data-share="facebook" href="#" target="_blank" rel="noopener">Facebook</a>
+          <a data-share="email" href="#">Email</a>
+          <button data-share="copy">Copy Link</button>
         </div>
 
         {d.tags.length > 0 && (
@@ -104,7 +117,7 @@ const initials = d.author.split(/\s+/).map((w) => w[0]).slice(0, 2).join('').toU
         {related.length > 0 && (
           <section>
             <h2 class="box_header">Read More</h2>
-            <div class="posts_grid three">
+            <div class="posts_grid three" data-related-grid>
               {related.map((a) => <PostCard article={a} showByline={false} />)}
             </div>
           </section>
@@ -113,4 +126,88 @@ const initials = d.author.split(/\s+/).map((w) => w[0]).slice(0, 2).join('').toU
       <Sidebar articles={articles} />
     </div>
   </div>
+
+  <button class="quote_pop" data-quote-pop>Share this quote</button>
 </Base>
+
+<script>
+  const path = location.pathname;
+
+  // ---- share bar
+  const bar = document.querySelector<HTMLElement>('[data-share-bar]');
+  if (bar) {
+    const u = encodeURIComponent(location.href.split('#')[0].split('?')[0]);
+    const t = encodeURIComponent(bar.dataset.title ?? document.title);
+    (bar.querySelector('[data-share=x]') as HTMLAnchorElement).href = `https://twitter.com/intent/tweet?url=${u}&text=${t}`;
+    (bar.querySelector('[data-share=facebook]') as HTMLAnchorElement).href = `https://www.facebook.com/sharer/sharer.php?u=${u}`;
+    (bar.querySelector('[data-share=email]') as HTMLAnchorElement).href = `mailto:?subject=${t}&body=${u}`;
+    bar.querySelector('[data-share=copy]')?.addEventListener('click', async (e) => {
+      const btn = e.currentTarget as HTMLButtonElement;
+      await navigator.clipboard.writeText(location.href.split('#')[0]);
+      btn.textContent = 'Copied!';
+      setTimeout(() => (btn.textContent = 'Copy Link'), 1500);
+    });
+  }
+
+  // ---- audio narration (shown only when available)
+  fetch(`/api/audio/status?path=${encodeURIComponent(path)}`)
+    .then((r) => (r.ok ? r.json() : null))
+    .then((data) => {
+      if (!data?.available) return;
+      const box = document.querySelector<HTMLElement>('[data-audio-box]')!;
+      const player = box.querySelector<HTMLAudioElement>('[data-audio-player]')!;
+      player.src = `/audio${path.replace(/\/$/, '')}.mp3`;
+      box.classList.add('available');
+    })
+    .catch(() => {});
+
+  // ---- semantic related reading (upgrades the static Read More grid)
+  const grid = document.querySelector<HTMLElement>('[data-related-grid]');
+  if (grid) {
+    fetch(`/api/related?url=${encodeURIComponent(path)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        if (!data?.results?.length) return;
+        grid.innerHTML = data.results
+          .slice(0, 3)
+          .map(
+            (a: any) => `
+          <article class="post_card">
+            <h2><a href="${a.url}">${a.title}</a></h2>
+            <span class="date">${new Date(a.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+            <div class="byline">By ${a.author}</div>
+          </article>`
+          )
+          .join('');
+      })
+      .catch(() => {});
+  }
+
+  // ---- quote sharing
+  const pop = document.querySelector<HTMLButtonElement>('[data-quote-pop]')!;
+  const body = document.querySelector('.article_body');
+  document.addEventListener('selectionchange', () => {
+    const sel = document.getSelection();
+    const text = sel?.toString().trim() ?? '';
+    if (!text || text.length < 20 || text.length > 420 || !body || !sel || !body.contains(sel.anchorNode)) {
+      pop.style.display = 'none';
+      return;
+    }
+    const rect = sel.getRangeAt(0).getBoundingClientRect();
+    pop.style.display = 'block';
+    pop.style.top = `${rect.top + window.scrollY - 40}px`;
+    pop.style.left = `${rect.left + window.scrollX + rect.width / 2 - 60}px`;
+  });
+  pop.addEventListener('mousedown', (e) => {
+    e.preventDefault();
+    const text = document.getSelection()?.toString().trim() ?? '';
+    if (!text) return;
+    const params = new URLSearchParams({
+      text,
+      title: (bar?.dataset.title ?? '').slice(0, 140),
+      author: bar?.dataset.author ?? '',
+      article: path,
+    });
+    window.open(`/quote/?${params}`, '_blank');
+  });
+</script>

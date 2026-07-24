@@ -37,6 +37,8 @@ export const NAV = [
     label: 'More',
     href: '#',
     children: [
+      { label: 'Ask the Archive', href: '/ask/' },
+      { label: 'Collections', href: '/collections/' },
       { label: 'Breaking News', href: '/category/breaking-news/' },
       { label: 'Economics', href: '/category/economics/' },
       { label: 'Entertainment', href: '/category/entertainment/' },

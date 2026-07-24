@@ -1,0 +1,41 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { allArticles, articlePath } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const curated = await getCollection('curated');
+  return curated.map((collection) => ({
+    params: { slug: collection.id.replace(/\.md$/, '') },
+    props: { collection },
+  }));
+}
+
+const { collection } = Astro.props;
+const { Content } = await render(collection);
+const articles = await allArticles();
+const byUrl = new Map(articles.map((a) => [articlePath(a), a]));
+const picks = collection.data.articleUrls.map((u) => byUrl.get(u)).filter(Boolean);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: collection.data.title,
+  description: collection.data.description,
+};
+---
+
+<Base title={collection.data.title} description={collection.data.description} jsonLd={jsonLd}>
+  <div class="container">
+    <main style="max-width:900px;margin:0 auto;padding:40px 0 60px;">
+      <h1 class="box_header">{collection.data.title}</h1>
+      <div class="article_body" style="text-align:left;font-size:19px;margin-bottom:8px;">
+        <Content />
+      </div>
+      <div class="posts_grid" style="margin-top:26px;">
+        {picks.map((a) => <PostCard article={a!} />)}
+      </div>
+    </main>
+  </div>
+</Base>
