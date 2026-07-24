@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/generate-search-data.mjs",
+    "build": "NODE_OPTIONS=--max-old-space-size=6144 astro build && node scripts/generate-search-data.mjs",
     "preview": "wrangler dev",
     "deploy": "astro build && wrangler deploy",
     "check": "astro check"
