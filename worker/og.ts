@@ -50,7 +50,8 @@ async function heroDataUri(env: Env, hero: string): Promise<string | null> {
         type = res.headers.get('content-type') ?? type;
       }
     }
-    if (!buf || buf.byteLength > 3_000_000) return null;
+    // satori/resvg rasterize only jpeg/png — skip webp/avif heroes (gradient fallback)
+    if (!buf || buf.byteLength > 3_000_000 || !/jpe?g|png/.test(type)) return null;
     const bytes = new Uint8Array(buf);
     let bin = '';
     for (let i = 0; i < bytes.length; i += 8192) {
