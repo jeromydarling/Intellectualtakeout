@@ -16,6 +16,16 @@ const initials = (name: string) =>
 ---
 
 <aside class="sidebar">
+  <div class="widget" data-mostread-widget hidden>
+    <h2 class="box_header">Most Read</h2>
+    <div class="mostread_tabs" role="tablist">
+      <button data-window="24h">Today</button>
+      <button data-window="7d" class="active">This Week</button>
+      <button data-window="30d">This Month</button>
+    </div>
+    <div data-mostread-list></div>
+  </div>
+
   <div class="widget">
     <h2 class="box_header">Latest Posts</h2>
     {latest.map((a) => <PostCard article={a} variant="row" />)}
@@ -41,3 +51,39 @@ const initials = (name: string) =>
     </div>
   )}
 </aside>
+
+<script>
+  const widget = document.querySelector<HTMLElement>('[data-mostread-widget]');
+  if (widget) {
+    const list = widget.querySelector<HTMLElement>('[data-mostread-list]')!;
+    const load = async (win: string) => {
+      try {
+        const r = await fetch(`/api/mostread?window=${win}&limit=5`);
+        if (!r.ok) return;
+        const data = await r.json();
+        if (!data.results?.length) return;
+        list.innerHTML = data.results
+          .map(
+            (a: any) => `
+          <article class="post_row">
+            <a class="thumb" href="${a.path}">${a.hero ? `<img src="${a.hero}" alt="" loading="lazy"/>` : ''}</a>
+            <div>
+              <h3><a href="${a.path}">${a.title}</a></h3>
+              <div class="date">${Number(a.views).toLocaleString()} reads</div>
+            </div>
+          </article>`
+          )
+          .join('');
+        widget.hidden = false;
+      } catch { /* stay hidden */ }
+    };
+    widget.querySelectorAll<HTMLButtonElement>('[data-window]').forEach((btn) =>
+      btn.addEventListener('click', () => {
+        widget.querySelectorAll('[data-window]').forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        load(btn.dataset.window!);
+      })
+    );
+    load('7d');
+  }
+</script>

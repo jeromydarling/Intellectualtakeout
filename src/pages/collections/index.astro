@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const curated = (await getCollection('curated')).sort(
+  (a, b) => (b.data.updated?.getTime() ?? 0) - (a.data.updated?.getTime() ?? 0)
+);
+---
+
+<Base
+  title="Collections"
+  description="Curated reading collections from 20 years of Intellectual Takeout articles."
+>
+  <div class="container">
+    <main style="max-width:900px;margin:0 auto;padding:40px 0 60px;">
+      <h1 class="box_header">Collections</h1>
+      <p style="font-size:19px;line-height:1.5;margin-bottom:26px;">
+        Guided paths through two decades of the archive — curated sets of essays on the themes
+        our readers return to most.
+      </p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px;">
+        {curated.map((c) => (
+          <a href={`/collections/${c.id.replace(/\.md$/, '')}/`} style="text-decoration:none;color:inherit;">
+            <div class="collection_card">
+              <h2>{c.data.title}</h2>
+              <p>{c.data.description}</p>
+              <span class="count">{c.data.articleUrls.length} articles</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </main>
+  </div>
+</Base>
