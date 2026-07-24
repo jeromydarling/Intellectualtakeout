@@ -44,6 +44,16 @@ images from `drive-media/` into R2 under `wp-content/uploads/drive/`, commits,
 and pushes. In-document directives (`Category:`, `Tags:`, `Publish:`,
 `Description:` on the first lines) override defaults.
 
+## Search
+
+Full-text search runs on D1 (SQLite FTS5, porter stemming, BM25 ranking).
+`npm run build` regenerates the corpus as static chunks in `dist/search-data/`;
+the worker's `POST /api/search/reindex?chunk=N` endpoint loads a chunk into
+D1, authenticated by the `reindex_token` row in the `admin_config` table (not
+stored in the repo). After deploying content changes, refresh the index with
+`REINDEX_TOKEN=… ./scripts/reindex-search.sh https://intellectualtakeout.org`
+(or reindex only changed chunks). Queries: `GET /api/search?q=…&page=N`.
+
 ## Commands
 
 - `npm run build` — full static build (~6 min, ~13k pages). Cloudflare Workers

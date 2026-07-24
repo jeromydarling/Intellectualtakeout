@@ -47,6 +47,14 @@ export default {
       return newsletter(request, env, url);
     }
 
+    if (pathname === '/api/search') {
+      return search(env, url);
+    }
+
+    if (pathname === '/api/search/reindex' && request.method === 'POST') {
+      return reindex(request, env, url);
+    }
+
     return env.ASSETS.fetch(request);
   },
 
@@ -164,6 +172,98 @@ async function newsletter(request: Request, env: Env, url: URL): Promise<Respons
   }
 
   return new Response('Not found', { status: 404 });
+}
+
+// ---------------------------------------------------------------- search
+
+/**
+ * Turn free-form user input into a safe FTS5 MATCH expression.
+ * Quoted phrases are preserved; bare terms get prefix matching so partial
+ * words still hit ("madis" -> madis*).
+ */
+function buildFtsQuery(input: string): string {
+  const phrases: string[] = [];
+  let rest = input.replace(/"([^"]*)"/g, (_, p) => {
+    if (p.trim()) phrases.push(`"${p.trim().replace(/"/g, '')}"`);
+    return ' ';
+  });
+  const terms = (rest.match(/[\p{L}\p{N}']+/gu) ?? [])
+    .slice(0, 10)
+    .map((t) => `"${t}"*`);
+  return [...phrases, ...terms].join(' ');
+}
+
+async function search(env: Env, url: URL): Promise<Response> {
+  const q = (url.searchParams.get('q') ?? '').trim().slice(0, 200);
+  const page = Math.max(1, Math.min(500, Number(url.searchParams.get('page')) || 1));
+  const perPage = 10;
+  if (!q) {
+    return new Response(JSON.stringify({ query: q, total: 0, page: 1, results: [] }), { headers: JSON_HEADERS });
+  }
+  const match = buildFtsQuery(q);
+  if (!match) {
+    return new Response(JSON.stringify({ query: q, total: 0, page: 1, results: [] }), { headers: JSON_HEADERS });
+  }
+
+  try {
+    // bm25 weights: title, description, body, author, categories, tags
+    const [rows, count] = await Promise.all([
+      env.DB.prepare(
+        `SELECT url, title, author, pub_date AS pubDate, hero, categories,
+                snippet(articles_fts, 2, '<mark>', '</mark>', '…', 32) AS snippet,
+                bm25(articles_fts, 12.0, 5.0, 1.0, 8.0, 3.0, 3.0) AS rank
+         FROM articles_fts WHERE articles_fts MATCH ?
+         ORDER BY rank LIMIT ? OFFSET ?`
+      ).bind(match, perPage, (page - 1) * perPage).all(),
+      env.DB.prepare(`SELECT count(*) AS n FROM articles_fts WHERE articles_fts MATCH ?`).bind(match).first<{ n: number }>(),
+    ]);
+    return new Response(
+      JSON.stringify({ query: q, total: count?.n ?? 0, page, perPage, results: rows.results }),
+      { headers: { ...JSON_HEADERS, 'cache-control': 'public, max-age=300' } }
+    );
+  } catch (e) {
+    console.error('search error', (e as Error).message);
+    return new Response(JSON.stringify({ query: q, total: 0, page, results: [], error: 'search_failed' }), { status: 500, headers: JSON_HEADERS });
+  }
+}
+
+/**
+ * Load one chunk of the build-time corpus (dist/search-data/chunk-NNN.json,
+ * served as a static asset) into the FTS index. Idempotent per chunk:
+ * existing rows for the chunk's URLs are replaced. Guarded by the
+ * reindex_token stored in D1 (admin_config), so no secret lives in the repo.
+ */
+async function reindex(request: Request, env: Env, url: URL): Promise<Response> {
+  const token = request.headers.get('x-reindex-token') ?? url.searchParams.get('token') ?? '';
+  const stored = await env.DB.prepare(`SELECT value FROM admin_config WHERE key = 'reindex_token'`).first<{ value: string }>();
+  if (!stored?.value || token !== stored.value) {
+    return new Response(JSON.stringify({ error: 'unauthorized' }), { status: 401, headers: JSON_HEADERS });
+  }
+
+  const chunkParam = url.searchParams.get('chunk');
+  if (chunkParam === null) {
+    const manifest = await env.ASSETS.fetch(new URL('/search-data/manifest.json', url.origin));
+    return new Response(manifest.body, { status: manifest.status, headers: JSON_HEADERS });
+  }
+
+  const chunkName = `chunk-${String(Number(chunkParam)).padStart(3, '0')}.json`;
+  const asset = await env.ASSETS.fetch(new URL(`/search-data/${chunkName}`, url.origin));
+  if (!asset.ok) {
+    return new Response(JSON.stringify({ error: 'chunk_not_found', chunk: chunkParam }), { status: 404, headers: JSON_HEADERS });
+  }
+  const docs = (await asset.json()) as Array<Record<string, string>>;
+
+  const statements = [
+    env.DB.prepare(`DELETE FROM articles_fts WHERE url IN (${docs.map(() => '?').join(',')})`).bind(...docs.map((d) => d.url)),
+    ...docs.map((d) =>
+      env.DB.prepare(
+        `INSERT INTO articles_fts (title, description, body, author, categories, tags, url, pub_date, hero)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
+      ).bind(d.title, d.description, d.body, d.author, d.categories, d.tags, d.url, d.pubDate, d.hero)
+    ),
+  ];
+  await env.DB.batch(statements);
+  return new Response(JSON.stringify({ ok: true, chunk: Number(chunkParam), indexed: docs.length }), { headers: JSON_HEADERS });
 }
 
 // ---------------------------------------------------------------- digest
