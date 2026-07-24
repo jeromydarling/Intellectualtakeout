@@ -34,6 +34,15 @@ tags: ["history"]
 heroImage: "/wp-content/uploads/2026/07/example.webp"
 ```
 
+## WordPress content sync (until cutover)
+
+`node scripts/sync-from-wordpress.mjs` copies articles published or edited on
+the live WordPress site since the stamp in `src/data/wp-sync.json` into the
+repo (idempotent; conversion matches the original migration). The hourly
+publishing routine runs it alongside the Drive check. NOTE: WP's
+`after`/`modified_after` filters compare in site-local time (America/Chicago);
+the stamp is stored local. Retire this after DNS cutover.
+
 ## Publishing workflow (Google Drive)
 
 Authors drop `.docx` files in the shared Drive "Publish" folder. The publish
