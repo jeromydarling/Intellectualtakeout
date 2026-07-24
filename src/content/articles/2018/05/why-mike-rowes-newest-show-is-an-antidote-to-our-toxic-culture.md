@@ -1,0 +1,37 @@
+---
+title: "Why Mike Rowe’s Newest Show Is an Antidote to Our Toxic Culture"
+description: "Edmund Burke famously said in his Reflections on the Revolution in France: “To be attached to the subdivision, to love the little platoon we belong to in society, is the first principle (the germ as it were) of public affections.” Burke’s assertion was a challenge to the French radicals’ promotion o"
+pubDate: "2018-05-10T00:00:00Z"
+updatedDate: "2018-05-10T00:00:00Z"
+author: "Stephen Klugewicz"
+authorSlug: "stephenklugewicz"
+categories: ["Culture"]
+categorySlugs: ["culture"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/mikerowe4.jpg"
+wpId: "76875"
+---
+
+Edmund Burke famously said in his [_Reflections on the Revolution in France_](https://smile.amazon.com/Reflections-Revolution-France-Oxford-Classics/dp/0199539022/): “To be attached to the subdivision, to love the little platoon we belong to in society, is the first principle (the germ as it were) of public affections.” Burke’s assertion was a challenge to the French radicals’ promotion of the idea that citizens give their primary loyalty to the all-encompassing State. The modern state crafted by the these eighteenth-century Revolutionaries, and honed by twentieth-century Leftists, was intended to provide for all the needs of its citizens. Intermediary institutions, like the church and local civic societies—the traditional providers for the unmet needs of the community—would be rendered obsolete in the face of the nation-state.
+
+But in the United States, as in many other modern nation-states, the growth of centralized government has not yet obviated the spirit of voluntarism and the desire of the ordinary man to help his neighbors. Indeed, local communities in America are alive and well, despite the best efforts of progressive activists and federal bureaucrats to take responsibility for every facet of the lives of Americans, by promoting such utopians notions as “free” universal healthcare, a “living wage” or guaranteed minimum income for all, even the elimination of poverty altogether.
+
+It is the enduring spirit of community voluntarism that _Returning the Favor—_a web television series created and hosted by actor Mike Rowe—celebrates. Born in Baltimore, Maryland in 1962, Mr. Rowe has served as a host for the home-shopping cable network, QVC, as a pitchman on television commercials, and as a narrator for various cable programs. (He even sang in the chorus of the Baltimore Opera.) But he came to national attention as host of the show _Dirty Jobs_, which aired on the Discovery Channel from 2005 to 2012. On each episode of _Dirty Jobs_, Mr. Rowe featured a specific blue-collar profession—from dairy-cow-midwifing to snake-wrangling to plumbing to chimney-sweeping—working alongside the common man for a day, and in so doing demonstrating to viewers how such “hardworking men and women “earn an honest living doing the kinds of jobs that make civilized life possible.” His distinctive baritone voice, dry and self-deprecating sense of humor, and likeable, easy-going persona made Mr. Rowe a star in short order. _Dirty Jobs_, Mr. Rowe, has said, was “a love letter to hard work and people.”
+
+When _Dirty Jobs_ was cancelled after eight seasons, Mr. Rowe created a slightly different version of the show for CNN, called _Somebody’s Gotta Do It_. Through these shows and through his creation of the mikeroweWORKS Foundation, Mr. Rowe has become an advocate for reviving the trades in America, discouraging the notion that everyone has to obtain a four-year college degree in order to be happy and successful. He has even established a “work-ethic scholarship program” for those pursuing a profession in the skilled trades.
+
+_Returning the Favor_ is Mr. Rowe’s newest show, created in 2017, and celebrating, instead of the blue-collar worker, the common volunteer. As Mr. Rowe puts it in the introduction to the show, he is “looking for “bloody do-gooders, people who are slightly better than us, doing nice things for their community in a completely selfless way.” On _Returning the Favor_, Mr. Rowe has featured a twenty-one-year-old woman who opened a free laundromat for the homeless and poor; a retired truck-driver who, for no remuneration, mows neighbors’ lawns and cleans up garbage around his town; two widows of firefighters killed battling the infamous Yarnell Hill Wildfire in Arizona, who campaign to have fire companies provided with proper equipment; a man who fixes up old bicycles for needy children; a seamstress who finished tailoring the wedding dresses of scores of brides-to-be, with no compensation, when the bridal store that employed her went out of business; a woman who runs a free thrift store. _Returning the Favor_‘s formula consists of Mr. Rowe’s telling the story of the volunteer and then his surprising each one by doing something to help him or her help others. So, the woman who launders clothes for free receives a customized van that allows her to fulfill her dream of having a mobile laundromat; the former truck driver gets a new pair of comfortable shows and a riding mower; the firefighter’s widows receive a check to purchase equipment for fire companies, and Mr. Rowe’s team creates a monument, complete with life-size bronze statue, to commemorate the deaths of their loved ones and the seventeen other firefighters who died alongside them; the thrift-store operator is provided with a check to pay the rent for two years on an adjacent building, refurbished by Mr. Rowe’s team, so as to be able to accept furniture donations for the needy.
+
+As Mr. Rowe says, the real point of the show is to make the volunteer-recipient cry at show’s end. And he usually succeeds, enlisting tears from many viewers as well.
+
+Though Mr. Rowe made an appearance on the campaign trail in 2012 with Mitt Romney and has appeared as a guest on a number of conservative talkshows, he leaves politics out of _Returning the Favor_. The show features people who presumably represent the spectrum of political thoughts in America. One might guess that the young laundry lady, whose parents appear to be aging hippies, is liberal, or that the quadriplegic U.S. Army veteran who established a retreat for wounded veterans and their families is conservative. But it doesn’t matter. Mr. Rowe shows us that love transcends political identification. “Everything is politicized,” Mr. Rowe says. “My operating premise is, if you watch enough knuckleheads protesting over here about this and if you watch enough racists over there about that, pretty soon you’re going to assume that the whole country is full of that.”
+
+Mr. Rowe’s show provides an antidote to this poisoned picture of modern-day America. In an age of cynicism and selfishness, _Returning the Favor_ is an unabashedly feel-good show, telling the story of the many unsung, little local platoons that comprise the heart of our communities and that quietly give the lie to the idea that only the omnipotent State can take care of us.
+
+_Episodes of_ Returning the Favor _can be viewed [here](https://www.facebook.com/ReturningTheFavor/)._
+
+_—_
+
+_This [article](http://www.theimaginativeconservative.org/2018/04/mike-rowe-returning-the-favor-stephen-klugewicz.html) has been republished with permission from Imaginative Conservative._
+
+\[Image Credit: Flickr-U.S. Fish and Wildlife Service [(CC BY 2.0)](https://creativecommons.org/licenses/by/2.0/legalcode)\]

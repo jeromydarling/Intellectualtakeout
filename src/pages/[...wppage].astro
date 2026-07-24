@@ -1,0 +1,26 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map((page) => ({
+    params: { wppage: page.data.urlPath },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await render(page);
+---
+
+<Base title={page.data.title} description={page.data.description}>
+  <div class="container">
+    <main class="article_main" style="max-width:820px;margin:0 auto;">
+      <h1>{page.data.title}</h1>
+      <div class="article_body" style="text-align:left;">
+        <Content />
+      </div>
+    </main>
+  </div>
+</Base>

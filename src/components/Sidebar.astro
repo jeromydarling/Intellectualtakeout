@@ -1,0 +1,43 @@
+---
+import PostCard from './PostCard.astro';
+import type { Article } from '../lib/content';
+import authors from '../data/authors.json';
+
+interface Props { articles: Article[] }
+const { articles } = Astro.props;
+
+const latest = articles.slice(0, 3);
+const history = articles.filter((a) => a.data.categorySlugs.includes('history')).slice(0, 4);
+const contributors = authors
+  .filter((a) => a.slug !== 'intellectual-takeout')
+  .slice(0, 10);
+const initials = (name: string) =>
+  name.split(/\s+/).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
+---
+
+<aside class="sidebar">
+  <div class="widget">
+    <h2 class="box_header">Latest Posts</h2>
+    {latest.map((a) => <PostCard article={a} variant="row" />)}
+  </div>
+
+  <div class="widget">
+    <h2 class="box_header">Frequent Contributors</h2>
+    <div class="contributors_grid">
+      {contributors.map((c) => (
+        <div class="contributor">
+          <a href={`/author/${c.slug}/`} class="avatar" aria-hidden="true">{initials(c.name)}</a>
+          <div class="name"><a href={`/author/${c.slug}/`}>{c.name}</a></div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  {history.length > 0 && (
+    <div class="widget">
+      <h2 class="box_header">History</h2>
+      {history.map((a) => <PostCard article={a} variant="row" />)}
+      <a href="/category/history/" class="box_header" style="display:block;text-align:center;">More in History</a>
+    </div>
+  )}
+</aside>

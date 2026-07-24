@@ -1,0 +1,50 @@
+---
+import { articlePath, formatDate, slugify } from '../lib/content';
+import type { Article } from '../lib/content';
+
+interface Props {
+  article: Article;
+  variant?: 'grid' | 'row';
+  showByline?: boolean;
+}
+const { article, variant = 'grid', showByline = true } = Astro.props;
+const { title, author, authorSlug, categories, pubDate, heroImage } = article.data;
+const href = articlePath(article);
+---
+
+{variant === 'grid' ? (
+  <article class="post_card">
+    {heroImage && (
+      <a class="thumb" href={href}><img src={heroImage} alt={title} loading="lazy" /></a>
+    )}
+    <h2><a href={href}>{title}</a></h2>
+    <div class="cats">
+      {categories.map((c, i) => (
+        <>
+          <a href={`/category/${slugify(c)}/`}>{c}</a>{i < categories.length - 1 && ', '}
+        </>
+      ))}
+    </div>
+    <span class="date">{formatDate(pubDate)}</span>
+    {showByline && (
+      <div class="byline">By <a href={`/author/${authorSlug}/`}>{author}</a></div>
+    )}
+  </article>
+) : (
+  <article class="post_row">
+    <a class="thumb" href={href}>
+      {heroImage && <img src={heroImage} alt={title} loading="lazy" />}
+    </a>
+    <div>
+      <h3><a href={href}>{title}</a></h3>
+      <div class="cats">
+        {categories.slice(0, 3).map((c, i) => (
+          <>
+            <a href={`/category/${slugify(c)}/`}>{c}</a>{i < Math.min(categories.length, 3) - 1 && ', '}
+          </>
+        ))}
+      </div>
+      <div class="date">{formatDate(pubDate)}</div>
+    </div>
+  </article>
+)}

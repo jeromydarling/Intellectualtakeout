@@ -1,0 +1,49 @@
+---
+title: "Using Campuses as Illegal Immigration Sanctuaries is a Bad Idea"
+description: "On Nov. 16, thousands of students at public and private universities across the country walked out of classes to protest the election of Donald Trump to the presidency. One of their main goals was to urge college officials to declare their campuses as “sanctuaries” for illegal immigrants—a controver"
+pubDate: "2016-12-06T00:00:00Z"
+updatedDate: "2016-12-06T00:00:00Z"
+author: "Stephanie Keaveney"
+authorSlug: "stephaniekeaveney"
+categories: ["Culture"]
+categorySlugs: ["culture"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/sanctuary.png"
+wpId: "72767"
+---
+
+On Nov. 16, thousands of students at public and private universities across the country walked out of classes to protest the election of Donald Trump to the presidency. One of their main goals was to urge college officials to declare their campuses as “sanctuaries” for illegal immigrants—a controversial move that could start a political battle and jeopardize billions of dollars in federal and state funding to universities.
+
+The movement is a response to President-elect Trump’s [stated intention](https://www.washingtonpost.com/news/the-fix/wp/2015/08/17/donald-trump-says-illegal-immigrants-have-to-go-only-31-percent-of-republicans-agree/) to end the Deferred Action for Childhood Arrivals (DACA) program, which provides temporary exemption from deportation for people who enter the United States illegally as children. (President Obama introduced the program through executive order in 2012.)
+
+Also, a 2011 [memo](https://www.ice.gov/doclib/ero-outreach/pdf/10029.2-policy.pdf) requires U.S. Immigration and Customs Enforcement (ICE) officials to seek pre-approval for any arrests or searches made on college campuses, but the new administration could walk back some of those restrictions. President-elect Trump has [already vowed](http://money.cnn.com/2016/11/19/news/economy/sanctuary-cities-trump-funding/index.html) to cut federal funding to cities that refuse to cooperate with immigration authorities, and a similar response to the university movement is likely given Trump’s [strong reaction](http://www.cnn.com/2016/12/01/politics/donald-trump-thank-you-tour/index.html) to the recent terrorist attack at Ohio State University, carried out by a Somali refugee student.
+
+The sanctuary campus concept stems from “sanctuary cities” that have cropped up in recent years. Those cities, such as San Francisco and Denver, intend to not cooperate with federal officials seeking to deport illegal aliens. The recent campus protests were coordinated by [Movimiento Cosecha](http://www.lahuelga.com/), an organization with similar aims. It wants to inspire “massive civil resistance and non-cooperation in order to win permanent protection, dignity and respect for our people, the immigrant community.”
+
+One hundred campuses joined the November 16 walkout, including eight North Carolina institutions: UNC-Chapel Hill, UNC-Asheville, UNC-Greensboro, North Carolina State University, Salem College, Guilford College, Duke University, and Davidson College. After the walkout, students began circulating petitions that make various demands relating to illegal immigrant students on campus.
+
+UNC-Chapel Hill’s [petition](https://docs.google.com/forms/d/e/1FAIpQLSdnwrekq1HIzBs_YNcF_51Bnw_lRrBf8of4o-PhvQ7ekl2YLA/viewform?c=0&w=1), which has received over 3,500 signatures, states that the university must “declare its support for and protection of undocumented people and their families on our campus and in your community.” It also demands that university officials refuse to assist with immigration authorities in their deportations or raids, invest resources to train students to be more “inclusive” of undocumented students, and publicly declare the campus to be a refuge for students facing deportation.
+
+At Duke University, [a petition](https://docs.google.com/forms/d/e/1FAIpQLSe668CZZ8nxr7A55-Ycw1T0SORwlT0Bi6ONC56O6ivudnOJzQ/viewform?c=0&w=1) calls for establishing a fund for immigration-related legal proceedings and providing refuge for students, staff, family, and community members who are in the country illegally. Almost 2,000 people have signed the petition. More than 100 [similar petitions](https://www.google.com/maps/d/u/0/viewer?ll=34.88448127208027%2525252C-80.092249259619&hl=en&z=8&authuser=0&mid=1LcIME474-lYWbTf_xQChIhSSN30) are circulating at campuses nationwide.
+
+From the protesters’ perspective, all of this pressure appears to be paying off. Already, 29 colleges have proclaimed their campuses to be sanctuaries. And in the last two weeks, more than 250 university presidents—including those at UNC-Chapel Hill, Duke, Davidson, Wake Forest, and Guilford—have signed a public letter calling continuation of the DACA program a “moral imperative” and “national necessity.”
+
+Other officials have adopted a more brazen stance, even if they’ve refrained from calling their universities sanctuaries. For example, Janet Napolitano, president of the University of California system, [has implemented a new policy](http://www.foxnews.com/politics/2016/12/01/university-california-digs-in-to-fight-trump-on-illegal-immigrant-protections.print.html) that prohibits campus police from cooperating with local, state, and federal immigration officials. It’s clear that this movement is based on more than a few scattered protests; it has the backing of major leaders in higher education.
+
+Schools supporting this movement, however, are operating on unsure legal footing; those opposing immigration authorities could face major negative repercussions. A Georgia lawmaker has [promised](http://politics.blog.ajc.com/2016/11/29/emory-could-lose-state-funding-if-it-declares-a-sanctuary-campus-to-shield-immigrants/) to cut state funding to universities that declare themselves sanctuaries. And in a Pope Center interview, University of North Carolina System Board of Governors (BOG) member William Mitchell said universities failing to comply with federal law would “put at risk several billion dollars of federal funding.”
+
+In North Carolina, state law [bans cities](http://www.wral.com/mccrory-signs-bill-outlawing-sanctuary-cities-in-nc/15035244/) from adopting “sanctuary” policies, although nothing explicitly prohibits universities from doing so. Steve Long, also a BOG member, said in an interview, “I believe that administrators understand that they must comply with law enforcement…. To do otherwise would be a violation of public trust.”
+
+But the response earlier this year to North Carolina’s controversial House Bill 2—the “bathroom bill”—may have set a bad precedent. In the wake of its passage, UNC system President Margaret Spellings [proclaimed](https://www.northcarolina.edu/sites/default/files/public_facilities_guidance_memo_0.pdf) the law to be unenforceable, thereby giving universities the opportunity to avoid compliance. If that mindset is applied to state and federal immigration laws, we may soon see universities in the Tar Heel State declare their “sanctuary” status, especially since they will face even more pressure to support the movement.
+
+Preparations are underway for nationwide “escalation” protests at campuses that have not yet announced their sanctuary status. According to a conference call with Moviemento Cosecha organizers, this will entail either another walkout or the occupation of campus buildings. Still, there are doubts about the sanctuary movement’s long-term viability, given all of the legal and political issues at play. Declaring “sanctuary” status could end up just being a feel-good gesture.
+
+According to [documents obtained](https://www.campusreform.org/?ID=8420) by _Campus Reform_, even leaders within the movement don’t know whether their efforts will withstand legal scrutiny. Southern Poverty Law Center lawyers told organizers that “it sounds like, unless people come up with a novel legal strategy, universities can’t legally protect students from deportation.” And Stephen Yale-Loehr, an immigration law professor at Cornell University, [described](https://www.insidehighered.com/news/2016/11/15/growing-movement-calls-universities-limit-their-cooperation-federal-immigration) the sanctuary movement as a “symbolic effort” in an _Inside Higher Ed_ interview. “I’m not sure \[that\] sanctuary resolutions carry much legal weight,” he said.
+
+At any rate, the sanctuary movement appears to be yet another example of higher education’s ultra-leftist fringe pushing an aggressive social justice agenda, with little or no resistance. In an [article](http://www.popecenter.org/2015/12/campus-unrest-exposes-the-folly-of-higher-educations-social-justice-offensive/) about last fall’s widespread racially charged campus protests, the Pope Center’s Jesse Saffron described a situation in which “academia is being turned on its head, with the least knowledgeable and least mature members of the academic community assuming command based on their emotions.” The sanctuary movement is proceeding in a similar vein; an increasing number of administrators are bending to the will of student protestors, and in the process undermining respect for the rule of law.
+
+In this instance, however, caving to student demands would be more than just a moral failure. It would jeopardize funding, ongoing police investigations, and campus safety. It would provide further support for the idea that higher education is a failing American institution, increasingly beholden to its most radical, extremist factions. University leaders should ensure that the institutions they lead, which do so much good for so many people, don’t attempt to score political points in the short-term at the expense of more important long-term considerations.
+
+—
+
+\[Image Credit: By Jonathan McIntosh (Own work) \[CC BY 2.5 ([http://creativecommons.org/licenses/by/2.5](http://creativecommons.org/licenses/by/2.5))\], via Wikimedia Commons\]

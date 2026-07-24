@@ -1,0 +1,27 @@
+---
+title: "Gov. Report: Death Rate Up, Life Expectancy Down in America in 2015"
+description: "The death rate increased 1.2% last year, and life expectancy fell in 2015, the most recent year for which data is available. Female life expectancy dropped from 81.3 to 81.2 years, and male life expectancy fell from 76.5 to 76.3 years. As ABC News notes, “A decades-long trend of rising life expectan"
+pubDate: "2016-12-16T00:00:00Z"
+updatedDate: "2016-12-16T00:00:00Z"
+author: "Hans Bader"
+authorSlug: "hansbader"
+categories: ["Politics"]
+categorySlugs: ["politics"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/obamacare_2.png"
+wpId: "79197"
+---
+
+The death rate increased 1.2% last year, and [life expectancy fell](https://www.washingtonpost.com/national/health-science/us-life-expectancy-declines-for-the-first-time-since-1993/2016/12/07/7dcdc7b4-bc93-11e6-91ee-1adddfe36cbe_story.html?utm_term=.3c5146855a18) in 2015, the most recent year for which data is available. Female life expectancy dropped from 81.3 to 81.2 years, and male life expectancy fell from 76.5 to 76.3 years.  As ABC News [notes](http://abcnews.go.com/Health/wireStory/us-life-expectancy-falls-kinds-death-increase-44051794), “A decades-long trend of rising life expectancy in the U.S. could be ending: It declined last year and it is no better than it was four years ago.”
+
+The core elements of Obamacare went [into effect in 2014](http://www.cbsnews.com/news/6-key-obamacare-dates-to-watch-for-in-2014/). Americans’ health has thus been deteriorating even as the provisions of the Affordable Care Act were supposed to be providing improvements. 
+
+The _Economic Policy Journal_ [predicted](http://www.economicpolicyjournal.com/2012/06/why-life-expectancy-will-decline-under.html) in 2012 that “life expectancy will decline under Obamacare.” In 2009, the dean of Harvard Medical School, [Jeffrey Flier](http://www.wsj.com/articles/SB10001424052748704431804574539581994054014), predicted that Obamacare would cost lives by harming life-saving medical innovation. In 2013, two doctors wrote in _The Wall Street Journal_ that Obamacare is “[bad for your health](http://www.wsj.com/articles/SB10001424127887324436104578580081572814300),” and that it would eventually have a [devastating](http://www.wsj.com/articles/SB10001424127887324436104578580081572814300) effect on medical innovation by driving down investment in medical devices.
+
+Supporters of Obamacare claimed its Medicaid expansion would save lives, but it does not appear to be helping. Despite its enormous cost of billions of dollars annually, expanding Medicaid does little to improve health outcomes for recipients. As Bloomberg News’ Megan McArdle has [noted](http://www.thedailybeast.com/articles/2013/05/01/shocker-oregon-health-study-shows-no-significant-health-impacts-from-joining-medicaid.html), expanded Medicaid eligibility in Oregon had “no impact on objective measures of health” for recipients. As a study in the _New England Journal of Medicine_ [noted](http://www.nejm.org/doi/full/10.1056/NEJMsa1212321), “Medicaid coverage generated no significant improvements in measured physical health outcomes in the first 2 years,” even though “it did increase use of health care services.”
+
+Obamacare’s expansion of Medicaid [reduced employment](http://marginalrevolution.com/marginalrevolution/2016/06/did-the-medicaid-expansion-limit-labor-force-participation.html) in the states that participated in it by a statistically significant extent (1.5%-3%), according to [a recent study](http://gradworks.umi.com/10/10/10106085.html) by Georgetown University’s Tomas Wind. The substantial reduction in employment due to Obamacare’s Medicaid expansion was [not predicted](http://www.cnsnews.com/commentary/hans-bader/trillion-dollars-and-two-million-jobs-lost-obamacare-increases-deficit-after) by the Congressional Budget Office, although the CBO did predict that other provisions of Obamacare would shrink employment. In February 2014, a Congressional Budget Office report [estimated that](http://thehill.com/policy/finance/197365-cbo-o-care-slowing-growth) “the new healthcare law will cost the nation the equivalent of 2.5 million workers in the next decade.” It will also increase the size of the national debt by [hundreds of billions](http://www.cnsnews.com/commentary/hans-bader/trillion-dollars-and-two-million-jobs-lost-obamacare-increases-deficit-after) of dollars.
+
+Obamacare tax credits contain even worse work disincentives than Obamacare’s Medicaid expansion, for many older workers. For example, they effectively create a [35,618 percent marginal tax rate](http://www.pointoflaw.com/archives/2010/10/confiscatory-ob.php) for a hypothetical 62-year-old whose income rises by $22, by triggering the sudden loss of $7,836 in government tax credits. That leaves the worker more than $7,000 poorer for the sin of earning a few extra dollars. Real world examples of how [Obamacare punishes hard work](https://cei.org/blog/obamacare-punishes-hard-work) are found [here](https://cei.org/blog/obamacare-punishes-hard-work).
+
+Health insurance premiums will also [increase significantly](https://cei.org/blog/obamacare-increases-premiums-reduces-employment) next year, according to the Obama administration. Such premium increases contradict President Obama’s claim before Obamacare was passed that Americans would [save](https://cei.org/blog/obamacare-increases-premiums-reduces-employment) $2,500 a year under it.

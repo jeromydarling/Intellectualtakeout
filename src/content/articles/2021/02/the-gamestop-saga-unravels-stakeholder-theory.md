@@ -1,0 +1,46 @@
+---
+title: "The GameStop Saga Unravels Stakeholder Theory"
+description: "The GameStop saga shows some “equity” movements are more equal than others. Stakeholder theory, the corporate version of social justice, attempts to install this hopelessly amorphous concept of “equity” in the business world. Equity, unlike equality, demands different treatment of individuals and di"
+pubDate: "2021-02-04T00:00:00Z"
+updatedDate: "2021-02-04T00:00:00Z"
+author: "Jeff Deist"
+authorSlug: "jeffdeist"
+categories: ["Economics"]
+categorySlugs: ["economics"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/38017793fdc942bd8e9fa01fc494c65a1.jpg"
+wpId: "71676"
+---
+
+The GameStop saga shows some “equity” movements are more equal than others.
+
+[Stakeholder theory](http://stakeholdertheory.org/about/), the corporate version of social justice, attempts to install this hopelessly amorphous concept of “equity” in the business world. Equity, unlike equality, demands different treatment of individuals and different distribution of resources based on need, identity, and historical injustices. But now equity has evolved beyond a political buzzword, and finds [growing support](http://hbr.org/2021/01/the-eus-unsustainable-approach-to-stakeholder-capitalism) in calls for stakeholder capitalism. The animating impulse in big corporate boardrooms today requires cultivating an image of social responsibility. Under this theory business firms should entertain all kinds of noneconomic goals and outcomes. No longer may owners simply concern themselves with profit or loss, but instead must consider the broader societal implications of everything their business does. Whether corporate leaders concern themselves with social justice out of genuine desire or merely to avoid backlash is an open question, but the events of 2020 clearly changed the conversations in boardrooms.
+
+Under the old conception, businesses have four primary elements, namely owners, managers, employees (or vendors), and customers. All four have skin in the game, which is to say their own money or income is involved. The notion of stakeholders inverts this paradigm and grants a degree of power over ostensibly private businesses to those who take no risks and provide no benefit. By undermining the suddenly old-fashioned idea of profit and loss as the guiding principle for business, stakeholder theory calls into question the very existence of millions of businesses big and small—in fact their grubby and narrow focus is simply to make money.
+
+To suggest that the general public or society at large ought to be a _de facto_ partner in any business, based on the interconnected nature of any economy, is to suggest an unlimited and wholesale attack on the concept of private ownership. It is patently antiproperty and implies collectivism by its very conceptual foundation. It insists everyone in society ought to have an interest in and some say over what ostensibly private firms do—and not only with respect to their profits, but even their business practices and mission. Stakeholder theory even creates a starring role for the earth itself, as the ultimate nonrenewable resource which is dubiously always in peril from business.
+
+Societal ownership of business firms traditionally takes three prominent forms, specifically socialism, communism, and fascism. But in 2021 these terms fail to shock or alarm us as they once did. The constant use of attenuated language makes us almost immune to powerful words that ought to be used judiciously. Socialism is increasingly popular, while fascism is the pejorative increasingly aimed at market capitalism. The newspeak of equity and stakeholders is yet another “third way” bridge blurring the distinction between private and state, between the economic means and the political means. And to be fair, equity and stakeholder movements _per se_ do not represent outright socialism (or fascism) in either the Misesian or Rothbardian sense. We still have stock markets, we still have private owners, and we still have profits and losses. The equity revolution takes place within the form, as an evolution rather than a deviation.
+
+Enter GameStop and its Reddit WallStreetBets bros, determined to prop up the fading retailer’s stock price in the face of intense short-selling pressure by powerful and rich hedge funds. This uprising, whether motivated by greed, gamer culture, or sheer spite against perceived Wall Street fat cats, is as much imbued with notions of fairness and societal benefit as any protest movement. Yet suddenly the champions of stakeholder theory, like the predictably despicable _Washington Post_, find themselves singing a new tune about vulture capitalists, deciding that hedge fund short sellers are the _good guys_ [in the story](https://www.washingtonpost.com/opinions/2021/01/30/good-guys-gamestop-story-its-hedge-funds-short-sellers/).
+
+After all, stakeholder theory means investment funds and major corporations have the right—or even the duty—to make uneconomic decisions. Broader societal interests, not just bottom-line profits and shareholder value, must be considered. So funds and companies frequently invest in supposedly green but inevitably less efficient technology, make donations to left-wing social causes like Black Lives Matter, and give money to a variety of charities. These actions may in fact provide long-term economic benefits from a positive public image, but they do not directly increase share prices or dividends.
+
+Redditors have the same right. Correctly or not, they see social benefit in causing financial losses for hedge funds with short positions looking to profit off GameStop’s stock decline and anticipated eventual bankruptcy (due to downloadable games obviating any need for retail outlets). If Koch Industries can be characterized as a nasty fossil fuels polluter whose profits fund captured antidemocratic right-wing think tanks, why can’t Redditors similarly portray hedge funds as evil tools for the 1 percent to get even richer on the back of a struggling retail chain? The notion of rich Wall Street investment bankers using their inordinate financial power to rip the marrow out of a dying industry’s carcass used to excite the Left. Now that same narrative somehow becomes an alt-right populist slander, one used by Reddit bros in their evil plot to manipulate the GameStop price.
+
+In truth there are no victims in this tale. Perversely, the celebrated former Fed chair and current Treasury secretary Janet Yellen was paid more than $800,000 by Citadel LLC—another player in the GameStop story. Should her “equity” be redistributed? Just yesterday GameStop stock dropped nearly 60 percent and has lost $400 per share from its recent all-time high. And while it all seems like a manipulated and even immoral series of events, we should remember that nobody put a gun to anyone’s head. The WallStreetBets group collectively chose to put their own money at play, knowing they were pumping the share price and could not all get out at once or even at a profit. Melvin Capital and other hedge funds heavily invested in shorting GameStop chose to take a significant risk, and their due diligence certainly could have included understanding and monitoring Reddit investment boards. As economist Peter Earle recently said, if you get in the ring, you might get punched.
+
+The purpose of capital markets is price discovery. They help investors and businesses allocate capital to its best and highest uses, however imperfectly and haphazardly. Short traders, long traders, so-called [insider traders](https://mises.org/library/insider-trading-really-crime), futures traders, derivative contracts, speculators, gamblers, colluders, and even [naked short sellers](https://www.forbes.com/sites/johntamny/2021/01/31/gamestop-and-the-silly-myth-about-naked-shorting/?sh=778976872ef6) all serve this imperfect process. All of these individuals and mechanisms constantly recalibrate and react to changing conditions, bringing a public company’s performance (and share price) into greater clarity. And any firm not wishing to subject itself to the vagaries of fickle equity markets or public campaigns can simply remain private and fund itself through operations or private placements.
+
+The process is imperfect because humans are imperfect. It can manifest in fits and starts, and demonstrate deep irrationality or even mania. But the alternative is nothing less than creeping socialism by another name, whether stakeholder capitalism or otherwise. When your atavistic and deficient theory backfires on you, look for a mirror rather than a congressional bailout. Everything is not everyone’s.
+
+_This [article](https://mises.org/wire/gamestop-saga-unravels-stakeholder-theory) has been republished with permission from the Mises Institute._ 
+
+—
+
+_Dear Readers,_
+
+_Big Tech is suppressing our reach, refusing to let us advertise and squelching our ability to serve up a steady diet of truth and ideas. Help us fight back by [becoming a member](https://www.chroniclesmagazine.org/subscribe/) for just $5 a month and then join the discussion on Parler [@CharlemagneInstitute](https://parler.com/profile/CharlemagneInstitute)!_
+
+Image Credit:   
+Corey Coyle, CC BY 3.0 , via Wikimedia Commons

@@ -1,0 +1,58 @@
+---
+title: "America’s First Poet, Anne Bradstreet: A Progressive Conservative"
+description: "Anne Bradstreet (1612–1672) was a pioneer in two ways: She was a pioneering settler in 17th-century New England who helped establish a new community in the New World, and she was also a pioneering poet who in 1650 became America’s first published poet and one of the first professional female poets i"
+pubDate: "2024-04-10T15:01:46Z"
+updatedDate: "2024-04-10T15:02:44Z"
+author: "Jeremy W. Johnston"
+authorSlug: "jeremywjohnston"
+categories: ["Literature", "History"]
+categorySlugs: ["literature", "history"]
+tags: []
+heroImage: "/wp-content/uploads/2024/04/Anne-Bradstreet.png"
+wpId: "91795"
+---
+
+Anne Bradstreet (1612–1672) was a pioneer in two ways: She was a pioneering settler in 17th-century New England who helped establish a new community in the New World, and she was also a pioneering poet who in 1650 became America’s first published poet and one of the first professional female poets in English literature. Despite these incredible “firsts,” she is not as well-known as other American historical or literary figures. This is due, in part, to the fact that she defies categorizing. Even though Anne Bradstreet lived in what modern feminists might classify as an oppressive and patriarchal society, it boggles some scholars’ minds how she could be so progressive yet so contentedly traditional as a woman, mother, and wife. She was a poet—at a time when few women were—and she wrote on a range of subjects: history, politics, religion, culture, spirituality. Yet, she also wrote tenderly about marriage and family obligations. In many ways, Anne Bradstreet could be aptly described as a _progressive conservative_.
+
+Anne Bradstreet was well aware of the general public’s criticism of her as a woman who writes. In her poem, “Prologue,” Anne writes that as a female poet, she is “obnoxious to each carping tongue, who says, my hand a needle better fits.” This is the crux of Anne’s frustration as a writer: to each querulous and never-satisfied critic (“carping tongue”), she is offensive (“obnoxious”). According to them, she ought to be doing what all women should do—that is, stay within the bounds of domestic life and occupy herself with needlework instead of “a poet’s pen.” She goes on to say,
+
+> For such despite they cast on female wits,  
+> If what I do prove well, it won’t advance—  
+> They’ll say it’s stolen, or else, it was by chance.
+
+Although influenced by other poets, Bradstreet’s poetic genius is neither “stolen” nor a product of “chance.” Reading Bradstreet’s poetry today reveals that her work is a product of careful consideration and craft, which remains both original and fresh. Her originality and freshness are seen in how she ends this poem defending herself as a poet. The final stanza asserts not an argument but rather a poetic demonstration that she is a worthy and capable writer:
+
+> And oh, ye high flown quills that soar the skies,  
+> And ever with your prey still catch your praise…
+
+These two lines explode with word-craft, playing with the idea that a poet’s pen (“quill”) comes from a bird’s feather. Like a soaring bird, the pen of great poets writes elevated words (“soar the skies”), and like a predator, her poet’s pen catches both the reader’s attention (“your prey”) and critical praise (“your praise”).
+
+To further her defense of female poets, Anne was unabashedly feminine in her writing. In one of her most famous poems, “The Author to Her Book,” Anne describes her first published work as the “ill-formed offspring of my feeble brain.” She uses an extended metaphor of a child (“offspring”) throughout this poem to describe her book, to which her “feeble brain” had given birth. What is incredibly unique is how she uses the mother and child metaphor to capture conflicting emotions of a simultaneously proud yet embarrassed author. Like a mother, the author loves her progeny; however, also like a mother, especially one whose child is a “rambling brat,” the author is ashamed of the book’s embarrassing features and flaws. In this poem, she takes the possible cliché of a mother’s affection for her child, and she adds authentic nuance and complexity of parental discomfiture and shame. In other poems, Bradstreet deftly weaves classical and biblical allusions together, peppering her poetry with references to the natural world, as well as honestly exploring a vast range of human emotions, such as fear, loneliness, mourning, happiness, gratitude, and joy. In poems like “Contemplations,” “By night when others soundly slept,” and “The Flesh and the Spirit,” she examines her intellectual, spiritual, and theological struggles, moving seamlessly from thoughts of doubt about God to her unwavering faith in God.
+
+Even though she was a pioneering woman of letters, Anne infrequently appears on poetry syllabi, even in American Literature classes or English courses with a feminist focus. Though she was a progressive female poet, Bradstreet also took delight in her role as wife and mother, and she remained committed to her conservative Puritan theology and beliefs. Although faith is at the center of Bradstreet’s work, it is marriage and family that form a significant thread throughout Anne’s poetry. She wrote several poems about her children and her husband. The 20th-century American poet, Adrienne Rich, writes in her foreword to the collected works of Anne Bradstreet, that Anne was “devotedly, even passionately married” to her husband, Simon Bradstreet. Many contemporary readers of Bradstreet’s poetry are surprised by the notion that American Puritans could be passionate about anything, especially love and marriage!
+
+Anne was only 16 years old when she married Simon, who was nine years her senior. One of Anne’s biographers, D.B. Kellogg, notes that
+
+> despite their age difference, there is every indication that Simon had only respect for Anne’s intellect and opinions. His love for her is evident in their forty-four-year love story that defies modern mistaken views of Puritans and their attitudes toward marital life.
+
+Several of Anne’s best poems corroborate the depth of their relationship, revealing her unwavering love and commitment to her husband. Her love poems—written originally for her husband’s eyes only—indicate a genuinely loving relationship, which seems to have included a healthy sex life. Even though Puritans are often described as stodgy, stifled, and opposed to sex, Bradstreet’s sexually charged poems tell a different story. Though not erotic or crass, Anne’s style and tone are in keeping with the visceral and affectionate love exchanges found in the Old Testament book, _Song of Solomon_, to which Anne often alludes. For example, in her poem “As loving hind,” Anne compares herself to a deer (“hind”) in search of her missing mate (i.e., she is “hartless”).
+
+> As loving hind that, hartless, wants her deer,  
+> scuds through the woods and fern with hark’ning ear.
+
+In _Song of Solomon_, the male lover is also compared to “a young hart” (2:9), and women are “hinds” (2:7; 3:5; see also “hind” in Proverbs 5:19, _Geneva Bible_). In another poem titled “A Letter to her Husband, absent upon public employment,” Bradstreet makes reference to her husband as “my magazine of earthly store.” This is the climax of a list of intensifying nouns describing her husband. A “magazine” is an exaggerated metaphor describing Simon as a military warehouse filled with explosives. Although the metaphor is hyperbolic, it alludes to an explosive emotional—as well as physical—relationship between the lovers. She also describes her children as the “fruit of thy heat”—that is her husband’s heat as the metaphorical sun—as well as a reference to the physical closeness that she has had with Simon. As she longs for her husband’s physical return, the poem ends with a biblical allusion to the marital union of man and wife becoming one flesh:
+
+> Flesh of thy flesh, bone of thy bone,  
+> I here, thou there, yet both but one.
+
+Her descriptions are mild compared to today’s penchant for being explicit and shocking. Nevertheless, her love poems still reveal the high view she and her Puritan counterparts had for matrimony, as well as their appreciation for sexual relations within the marriage bed. The Editors of _Christian History Magazine_ concur, noting that Anne Bradstreet’s “writings debunk the myth of the stodgy, prudish Puritan so long a part of the American psyche.”
+
+In addition to the evidence of their loving relationship, Simon’s encouragement of Anne’s exercise of her gifts as a writer and poet surprises modern academics. Although life was demanding and difficult in the Massachusetts Bay Colony, Simon was supportive of the time and energy Anne invested in her writing. Anne’s family was also supportive, and it was her brother-in-law who helped to publish her first book of poems, _The Tenth Muse Lately Sprung Up in America_ (1650). Not only were Anne’s relatives supportive of her poetry, but it seems the Puritan community on both sides of the Atlantic praised her talents as a poet as well. Some subsequent critics have made much ado about Bradstreet exerting rebellious qualities by becoming a poet and going against the puritanical patriarchy. However, the overwhelming support of many Puritan leaders and ministers for Anne’s writing contravenes this presumption. In the 1650 edition of her book of poems, there are no less than twelve pages of endorsements by fellow Puritans with several “prefatory verses by admirers.”
+
+As a settler and as a female poet, Anne Bradstreet was a trailblazer. Although the Puritans held to clearly defined roles for men and women within their community, both male and females alike were essential in ensuring survival in the New World and building and establishing a new civilization. Anne and her fellow Puritans sought to live out a Christian vision of sacrifice, submission, and love in all levels of their society. This isn’t to say that they didn’t miss the mark in certain areas of community life. In particular, American Puritans have a controversial and mixed record with the way they addressed religious differences (e.g., Quakers, Baptists), outspoken outliers (e.g., Roger Williams, Anne Hutchinson), some of their Indigenous neighbours, and, of course, how they handled the infamous Salem witch trials. Nevertheless, viewing the Puritans though the lens of a simplistic paradigm of oppressor and oppressed fails to incorporate the rich reality of life as “worldly saints.” Despite their flaws, the Puritans were a remarkable group who helped to produce the ideals of the American nation, as well as produce extraordinary poets on both sides of the Atlantic, including Anne Bradstreet. It’s important to note that Bradstreet, as a female poet, did not emerge _in spite of_ her Puritan upbringing, but in many ways _because of it_. In his book, _Studies in Medieval and Renaissance Literature_, C.S. Lewis writes, “We must picture these Puritans as the very opposite of those who bear the name today: as young, fierce, progressive intellectuals, very fashionable and up-to-date.” Without a doubt, Lewis’s description of Puritans describes very well the person and work of Anne Bradstreet.
+
+—
+
+This [article](https://theimaginativeconservative.org/2024/03/america-first-poet-anne-bradstreet-progressive-conservative-jeremy-johnston.html) appeared first on _The Imaginative Conservative_ and is reprinted here with permission.
+
+Image credit: [Public domain](https://en.wikipedia.org/wiki/File:Frontispiece_for_An_Account_of_Anne_Bradstreet_The_Puritan_Poetess,_and_Kindred_Topics,_edited_by_Colonel_Luther_Caldwell_\(Boston,_1898\)_\(cropped\).jpg)

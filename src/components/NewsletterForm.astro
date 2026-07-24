@@ -1,0 +1,32 @@
+---
+interface Props { compact?: boolean }
+---
+
+<form class="newsletter_form" method="post" action="/api/newsletter/subscribe" data-newsletter>
+  <input type="email" name="email" placeholder="Your email address" required />
+  <button type="submit">Subscribe Now</button>
+</form>
+<p class="form_note" data-newsletter-note></p>
+
+<script>
+  for (const form of document.querySelectorAll<HTMLFormElement>('form[data-newsletter]')) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const note = form.nextElementSibling as HTMLElement;
+      const email = (form.elements.namedItem('email') as HTMLInputElement).value;
+      note.textContent = 'Subscribing…';
+      try {
+        const r = await fetch('/api/newsletter/subscribe', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ email }),
+        });
+        const data = await r.json();
+        note.textContent = data.message ?? (r.ok ? 'Check your inbox to confirm your subscription.' : 'Something went wrong — please try again.');
+        if (r.ok) form.reset();
+      } catch {
+        note.textContent = 'Something went wrong — please try again.';
+      }
+    });
+  }
+</script>

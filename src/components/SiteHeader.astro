@@ -1,0 +1,47 @@
+---
+import { SITE, NAV } from '../lib/site';
+import { articlePath } from '../lib/content';
+import type { Article } from '../lib/content';
+
+interface Props { latest: Article[] }
+const { latest } = Astro.props;
+---
+
+<div class="top_bar">
+  <div class="container">
+    <span class="latest_label">Latest</span>
+    <div class="ticker">
+      {latest.map((a) => <a href={articlePath(a)}>{a.data.title}</a>)}
+    </div>
+    <form class="search" action="/search/" method="get">
+      <input type="search" name="q" placeholder="Search..." aria-label="Search" />
+    </form>
+  </div>
+</div>
+
+<div class="header">
+  <div class="logo">
+    <a href="/" title={SITE.name}>
+      <img src={SITE.logo} alt={SITE.name} width="315" height="98" />
+    </a>
+  </div>
+</div>
+
+<nav class="nav_bar" aria-label="Main">
+  <div class="container">
+    <ul class="menu">
+      {NAV.map((item) => (
+        <li>
+          <a href={item.href}>{item.label}</a>
+          {item.children && (
+            <ul>
+              {item.children.map((c) => (
+                <li><a href={c.href}>{c.label}</a></li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))}
+    </ul>
+  </div>
+</nav>

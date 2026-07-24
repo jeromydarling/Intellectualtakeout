@@ -1,0 +1,35 @@
+---
+title: "U.S. Economy Hits All-Time Low in Freedom Index"
+description: "The United States recently slipped to its lowest level yet in world rankings of economic freedom compiled by the Heritage Foundation and The Wall Street Journal. It now qualifies not as “free” but as “mostly free.” As The Hill notes: “In the latest report, the U.S. ranks 17th out of 180 countries wi"
+pubDate: "2017-02-16T00:00:00Z"
+updatedDate: "2017-02-16T00:00:00Z"
+author: "Hans Bader"
+authorSlug: "hansbader"
+categories: ["Culture"]
+categorySlugs: ["culture"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/bald_eagle.jpg"
+wpId: "78901"
+---
+
+The United States recently [slipped to its lowest level yet](http://thehill.com/policy/international/319556-us-falls-in-economic-freedom-index) in world [rankings](http://www.heritage.org/index/) of economic freedom compiled by the Heritage Foundation and _The Wall Street Journal_. It now qualifies not as “free” but as “mostly free.” As _The Hill_ [notes](http://thehill.com/policy/international/319556-us-falls-in-economic-freedom-index):
+
+> “In the latest report, the U.S. ranks 17th out of 180 countries with an economic freedom score of 75.1 out of 100. Last year, the U.S. ranked number 11.
+> 
+> Hong Kong, Singapore, and New Zealand topped the list, with respective scores of 89.8, 88.6, and 83.7. Other countries that placed ahead of the U.S. included Canada, Taiwan, and Britain, among others.
+> 
+> The Heritage report said countries with scores between 80-100 are considered economically “free,” while countries scores between 70-79.9 are considered “mostly free.””
+
+The Index of Economic Freedom [cited](http://www.heritage.org/index/) the “substantial expansion in the size and scope of the U.S. government, increased regulatory, and tax burdens in many sectors,” and “large budget deficits and a high level of public debt.” It also [took](http://thf_media.s3.amazonaws.com/2017/2017_IndexOfEconomicFreedom.pdf) into account “changes around the globe” in 2016 affecting America’s competitors. The Heritage Foundation’s Anthony Kim [concluded](http://www.cnsnews.com/commentary/anthony-b-kim/economic-freedom-score-hits-historic-low-millions-locked-out-labor-market) that America’s slow economic growth in recent years is “an unfortunate legacy of Barack Obama’s eight-year presidency.” The Obama administration reduced America’s “economic dynamism” through “new and costly regulations in areas like finance” and “health care,” and the environment” that shrank “opportunities for nongovernmental production and investment.” Moreover, the “growth of government has been accompanied by increasing cronyism that has undermined the rule of law and perceptions of fairness.”
+
+The Heritage Foundation is not the only think tank to conclude that economic freedom has diminished in the United States over the last decade. The Fraser Institute and Cato Institute reached the [same conclusion](https://www.cato.org/economic-freedom-world) recently in their _Economic Freedom of the World_ rankings, noting that “the United States has seen its economic freedom score plummet in recent years, compared to 2000 when it ranked second globally.” Freedom has also declined in non-economic terms in the U.S. in recent years: The Cato Institute’s overall Human Freedom Index also shows a decline, with the U.S. falling to a [rank of 23rd](https://www.cato.org/human-freedom-index) in 2016, as compared to [20th in 2015](https://www.cato.org/blog/new-human-freedom-index-us-ranks-20th).
+
+Shrinking economic freedom is bad for your health. Communist and formerly communist countries like Russia tend to have [shorter average life expectancies](https://cei.org/blog/economic-freedom-declines-again-government-control-bad-your-health) than free market-oriented countries. That’s true even when the capitalist countries have fewer natural resources, lower per capita incomes, and [fewer doctors](https://cei.org/blog/hans-rosling-antidote-pessimism-dies-68). In 1999, just before Marxist Hugo Chavez took power in Venezuela, life expectancy was three years longer in Venezuela than in Colombia (according to the World Almanac). But after years of socialist rule, life expectancy in Venezuela is now a year [shorter](http://www.worldlifeexpectancy.com/venezuela-life-expectancy) than in Colombia, even if you believe Venezuela’s rosy official statistics. Venezuela’s Marxist government [denies](http://venezuelatoday.net/venezuelas-u-n-representative-denies-economic-crisis-amidst-starvation-in-his-country/) widespread reports of [malnutrition](http://www.inquisitr.com/3517032/children-are-starving-to-death-in-socialist-venezuela/), even as _The [New York Times](https://www.nytimes.com/2016/12/25/world/americas/venezuela-hunger.html?_r=0)_ and other newspapers report [children](https://www.nytimes.com/2016/12/25/world/americas/venezuela-hunger.html?_r=0) and [detainees](http://www.dailymail.co.uk/news/article-3830672/Prisoners-starving-death-Venezuela-s-jails-country-s-economic-collapse-sees-food-medicine-run-out.html) dying of [starvation](https://www.nytimes.com/2016/12/25/world/americas/venezuela-hunger.html?_r=0). As CNN [notes](http://money.cnn.com/2016/08/11/news/economy/venezuela-food-shortages/), despite food shortages, “Venezuela has denied food and humanitarian aid from groups like Amnesty International and the United Nations. Amnesty officials contest that the government doesn’t want to accept aid because that would make the government look inadequate.”
+
+Life expectancy in the U.S. recently [fell slightly](https://cei.org/blog/death-rate-rose-and-life-expectancy-recently-fell-america), as economic freedom declined, and Obamacare went fully into [effect in 2014](http://www.cnsnews.com/commentary/hans-bader/under-obamacare-death-rates-rise-and-life-expectancy-falls-2015). Obamacare does not appear to have improved health outcomes. As ABC News [noted](http://abcnews.go.com/Health/wireStory/us-life-expectancy-falls-kinds-death-increase-44051794), American life expectancy “is no better than it was four years ago,” reversing a “decades-long trend of rising life expectancy in the U.S.” The _Economic Policy Journal_ [predicted](http://www.economicpolicyjournal.com/2012/06/why-life-expectancy-will-decline-under.html) in 2012 that “life expectancy will decline under Obamacare.” In 2009, the dean of Harvard Medical School, [Jeffrey Flier](http://www.wsj.com/articles/SB10001424052748704431804574539581994054014), predicted that Obamacare would cost lives by harming life-saving medical innovation. In 2013, two doctors argued in _The Wall Street Journal_ that Obamacare would be “[bad for your health](http://www.wsj.com/articles/SB10001424127887324436104578580081572814300).”
+
+—
+
+_[This article](http://http://libertyunyielding.com/2017/02/16/economic-freedom-shrank-last-year-due-costly-obama-administration-regulations/) was republished with permission from Liberty Unyielding._
+
+_\[Image Credit: [Butterfly Watching Blogspot](https://lh3.googleusercontent.com/-ZJ2b6PLbthU/TYz509GzSvI/AAAAAAAAAyA/LGqOHMl5RF0/s1600/111.JPG)\]_
