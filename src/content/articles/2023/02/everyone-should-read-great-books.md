@@ -1,0 +1,39 @@
+---
+title: "The Good Catastrophe: Why Everyone Should Read Great Literature"
+description: "When I first attended a Shakespeare play, I have to admit that for the first few scenes I was pretty lost. Shakespeare’s English is of a much older and more formal style than ours, so sometimes experiencing his work is almost like hearing another language. Confused and concerned that the play wasn’t"
+pubDate: "2023-02-16T17:29:43Z"
+updatedDate: "2023-11-14T21:28:15Z"
+author: "Walker Larson"
+authorSlug: "walkerlarson"
+categories: ["Literature"]
+categorySlugs: ["literature"]
+tags: []
+heroImage: "/wp-content/uploads/2023/02/book-cozy-1024x683.jpg"
+wpId: "85270"
+---
+
+When I first attended a [Shakespeare](/2016/04/why-shakespeare-is-still-relevant/) play, I have to admit that for the first few scenes I was pretty lost. Shakespeare’s English is of a much older and more formal style than ours, so sometimes experiencing his work is almost like hearing another language. Confused and concerned that the play wasn’t going to make any sense, I began to fear that most dreaded of sensations in our modern age of instant entertainment: boredom.
+
+But then a strange thing happened. Like a traveler in a foreign land, I began to pick up bits of the native language. Coupled with the physical actions of the characters, I began to catch on to what was happening. I didn’t understand everything, but as the play progressed, I found that I could comprehend the overall plot. I got better and better at following the actors’ flowery speech and came to realize just how rich—and often humorous—these speeches were. Best of all, I began to actually care about the characters and what was going to happen to them.
+
+I share this story as an illustration. I believe that everyone not only is able but _should_, read, understand, enjoy, and profit from great literature. My experience in the theater is something of an example, I think, of what this might mean for the modern person who dares to [approach great literature](/2023/01/importance-reading-difficult-books/) for the first time. In today’s education system and culture, the classics—that is those time-honored and critically acclaimed works of fiction that are universally recognized as being at the pinnacle of literary imagination—are somewhat neglected. As a result, few of us have been exposed to these works, and if we have, it’s often as something grim, academic, and inaccessible.
+
+But I maintain that the impression of literature as inaccessible is merely an illusion, a breaking-in period. Going to a Shakespeare play shows us what happens if we stick with a difficult text: Once we get used to the language and the rhythm, we find that a transformation occurs. The story becomes not only accessible but engrossing. And that’s the first reason why everyone should read great literature: because it’s entertaining. We all like stories—even if we’re not big readers. If you’ve ever watched a movie or even just read a comic strip and liked it, then you like stories. And no one tells stories better than the masters: from Dante to Dickens, Homer to Hemingway, Cervantes to Shakespeare, Tolkien to Tolstoy. It might take us a while to get used to these authors—their pacing might be a bit slower than the typical modern sci-fi thriller and their language more complex—but the rewards are proportionate to the challenge. These authors will spin tales that will utterly absorb you. They will create characters more real and alive than any action hero, love stories more powerful and meaningful than any teen romance, and adventures more exhilarating and dangerous than any blockbuster movie. Their works have been read for generations. Clearly, these authors got something right.
+
+The second reason why everyone should read great literature is because there is much to be learned from it. Of course, classic works of fiction are not textbooks teaching you how the GI tract works or how to divide polynomials. But as teacher and poet Michael Larson points out in his 2012 book _[Durable Design](https://www.google.com/books/edition/Durable_Design/1BQFuwAACAAJ?hl=en)_, they teach you about something far more interesting and important: human nature.
+
+Great authors understand what it means to be human, what motivates a person, how one person’s choices influence the lives of those around them. They understand the most intense feelings, the deepest trials, the highest joys, the best and the worst that we are capable of, and they translate all of this into their work. Larson reminds us that by reading great works of fiction we learn almost firsthand about the complexities of human life. This is knowledge that all of us, without exception, can use quite practically: We can use our understanding of life that we glean from literature to live well ourselves.
+
+Sometimes literature provides us with much needed emotional and psychological support and inspiration. For example, if any of us have ever felt grief over a missed home, the loss of a parent, or unrequited love, to name just a few examples, we will find that we are not alone: Odysseus weeps for his kingdom of Ithaca in Homer’s _[The Odyssey](https://www.google.com/books/edition/The_Odyssey/vIVPEAAAQBAJ?hl=en&gbpv=0)_, the titular character mourns the premature death of his beloved mother in Dickens’ _[David Copperfield](https://www.google.com/books/edition/David_Copperfield/WNUJPqJXfCoC?hl=en&gbpv=0)_, and Orsino’s passionate love for Olivia is met with indifference in Shakespeare’s _[Twelfth Night](https://www.google.com/books/edition/Twelfth_Night/br2rKgbQb_gC?hl=en&gbpv=0)_. We find in literature countless characters experiencing the same challenges as ourselves, and through the masterful telling of their stories, we can come to understand that these trials are part of “the human estate of grief and joy”—to use Wendell Berry’s term from [_The Unsettling of America_](https://www.google.com/books/edition/The_Unsettling_of_America/DohgAAAAIAAJ?hl=en&gbpv=0&bsq=The%20Unsettling%20of%20America)—and most importantly we will feel in our bones that these trials can be endured, that they can transform us.
+
+My last point has to do with happy endings. Not all great works of literature have a happy ending, but many of the best do. Some of the most powerful books are those in which characters face tremendous difficulties and seemingly hopeless odds, but in the end they overcome them and triumph. This theme of overcoming seemingly insurmountable darkness, and especially doing so just when all hope seems lost, touches something deep within all of us. We all yearn for that final victory over our own difficulties, though we cannot always put it in concrete terms. In his 1947 essay “[On Fairy-Stories](https://coolcalvary.files.wordpress.com/2018/10/on-fairy-stories1.pdf),” J.R.R. Tolkien puts it beautifully. Here, he is speaking specifically about fantasy tales, but the concept can apply to all great fiction:
+
+> The consolation of fairy-stories, the joy of the happy ending: or more correctly of the good catastrophe, the sudden joyous ‘turn’ … this joy, which is one of the things which fairy-stories can produce supremely well, is not essentially ‘escapist,’ nor ‘fugitive.’ In its fairy-tale—or otherworld—setting, it is a sudden and miraculous grace: never to be counted on to recur. It does not deny the existence of dyscatastrophe, of sorrow and failure: the possibility of these is necessary to the joy of deliverance; it denies … universal final defeat and in so far is evangelium, giving a fleeting glimpse of Joy, Joy beyond the walls of the world, poignant as grief.
+
+Great books are for all of us, for they entertain us, teach us, and inspire us. They touch on themes that we can all relate to. And there is no special requirement to read and understand great literature. We need only be human.
+
+—
+
+_Image credit: Pinterest-Ana Markovych_
+
+[ITO](/)

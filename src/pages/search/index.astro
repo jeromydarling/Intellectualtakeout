@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base title="Search" noindex>
+  <div class="container">
+    <main style="max-width:640px;margin:0 auto;padding:50px 0;">
+      <h1 class="box_header">Search</h1>
+      <form method="get" action="https://duckduckgo.com/" style="display:flex;gap:8px;">
+        <input type="hidden" name="sites" value="intellectualtakeout.org" />
+        <input
+          type="search"
+          name="q"
+          placeholder="Search Intellectual Takeout…"
+          style="flex:1;padding:12px;border:1px solid #d5d5d5;font-family:var(--sans);font-size:14px;"
+        />
+        <button type="submit" class="theme_button" style="background:#2e3e42;color:#fff;border:0;padding:0 22px;font-family:var(--sans);text-transform:uppercase;font-size:11px;letter-spacing:1px;cursor:pointer;">
+          Search
+        </button>
+      </form>
+      <p class="form_note">Site search is powered by DuckDuckGo while our built-in search index is under construction.</p>
+    </main>
+  </div>
+</Base>
+
+<script>
+  // If the top-bar search submitted here with ?q=, forward it.
+  const q = new URLSearchParams(location.search).get('q');
+  if (q) {
+    const input = document.querySelector<HTMLInputElement>('main input[type=search]');
+    if (input) input.value = q;
+  }
+</script>

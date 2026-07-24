@@ -1,0 +1,35 @@
+---
+title: "Education as if Truth Mattered"
+description: "The title of this essay, “Education as if Truth Mattered,” is taken from the subtitle of Christopher Derrick’s book, Escape from Scepticism: Liberal Education as if Truth Mattered, published in 1977. Derrick’s subtitle was itself borrowed and adapted from the subtitle of E. F. Schumacher’s internati"
+pubDate: "2016-03-02T00:00:00Z"
+updatedDate: "2016-03-02T00:00:00Z"
+author: "Joseph Pearce"
+authorSlug: "josephpearce"
+categories: ["Education"]
+categorySlugs: ["education"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/apostlepaul-1024x679.jpg"
+wpId: "80440"
+---
+
+The title of this essay, “Education as if Truth Mattered,” is taken from the subtitle of Christopher Derrick’s book, _[Escape from Scepticism: Liberal Education as if Truth Mattered](http://astore.amazon.com/theimaginativeconservative-20/detail/0898708486)_, published in 1977. Derrick’s subtitle was itself borrowed and adapted from the subtitle of E. F. Schumacher’s international bestseller, _[Small is Beautiful: Economics as if People Mattered](http://astore.amazon.com/theimaginativeconservative-20/detail/0061997765)_, published four years earlier. Derrick and Schumacher were friends, the former being instrumental in introducing the latter to the Church’s social teaching, and the two books have much more in common than their ostensibly different subjects would suggest. In both cases, the authors illustrate how modernity’s philosophical materialism has undermined the very foundations of civilized life and how the solution to the problem is a return to traditional concepts of the good, the true, and the beautiful. Schumacher turned to the wisdom of the ancients to help him understand the defects of the economy; Derrick turned to the wisdom of the ancients to correct the defects of the academy. Whether considering the plight of the economy or the academy, both men showed how the denigration of the good, the fragmentation of the true, and the destruction of the beautiful have resulted in a world that is bankrupt in terms of true wealth.
+
+In a previous essay for _The_ _Imaginative Conservative_, “[Chesterton](http://www.theimaginativeconservative.org/2014/02/chesterton-and-the-meaning-of-education.html) [and the Meaning of Education](http://www.theimaginativeconservative.org/2014/02/chesterton-and-the-meaning-of-education.html),” I highlighted the wisdom of G. K. Chesterton’s critique of modern education. It is worth noting, however, that Chesterton’s critique of the follies and fallacies at the heart of the modern academy was echoed by the generation of great writers who followed in his wake. T. S. Eliot’s _Modern Education and the Classics_, published in 1934, complemented C. S. Lewis’s “Reflections on Education with Special Reference to the Teaching of English” which was the subtitle of his book, _[The Abolition of Man](http://astore.amazon.com/theimaginativeconservative-20/detail/0060652942)_. Both works insisted that education could not be divorced from morality and that the latter must inform the former. Similarly, Eliot’s _[The Idea of a Christian Society](http://astore.amazon.com/theimaginativeconservative-20/detail/B00IQYQW6I)_ (1939) and his _[Notes Towards the Definition of Culture](http://astore.amazon.com/theimaginativeconservative-20/detail/0571063136)_ (1948) dovetailed with Lewis’s position as regards the necessity of Christianity to any genuine restoration of European culture. Most notably, Eliot’s depiction of “The Hollow Men” in his poem of that title, published in 1925, prefigures Lewis’s “Men without Chests” in _The Abolition of Man_ who are fictionalized to great satirical effect in Lewis’s _[That Hideous Strength](http://astore.amazon.com/theimaginativeconservative-20/detail/0743234928)_, the latter of which contains a delightful parody of the disintegration and dumbing-down of the modern academy.
+
+Evelyn Waugh, in his magnum opus, _[Brideshead Revisited](http://astore.amazon.com/theimaginativeconservative-20/detail/0316216453)_, a novel which was itself inspired by a line in one of Chesterton’s _Father Brown_ stories, lampoons the “hollow men” produced by the modern academy in his portrayal of Hooper and Rex Mottram. Hooper had “no special illusions distinguishable from the general, enveloping fog from which he observed the universe:”
+
+> Hooper had wept often, but never for Henry’s speech on St. Crispin’s day, nor for the epitaph at Thermopylae. The history they taught him had had few battles in it but, instead, a profusion of detail about humane legislation and recent industrial change. Gallipoli, Balaclava, Quebec, Lepanto, Bannockburn, Roncesvales, and Marathon—these, and the Battle in the West where Arthur fell, and a hundred such names whose trumpet-notes, even now in my sere and lawless state, called to me irresistibly across the intervening years with all the clarity and strength of boyhood, sounded in vain to Hooper…[\[i\]](#Footnote1)
+
+Like Hooper, the character of Rex Mottram serves to personify the “hollow man,” the crass product of the modern, disintegrated academy. In the words of Julia, his wife, he is not only ignorant but also, and even worse, he is utterly ignorant of his ignorance:
+
+> You know Father Mowbray hit on the truth about Rex at once, that it took me a year of marriage to see. He simply wasn’t all there. He wasn’t a complete human being at all. He was a tiny bit of one, unnaturally developed… I thought he was a sort of primitive savage, but he was something absolutely modern and up-to-date that only this ghastly age could produce. A tiny bit of a man pretending he was whole…[\[ii\]](#Footnote2)
+
+Let’s leave the “men without chests” to ponder their own navels and the “hollow men” to their own vacuity; and let’s remind ourselves of the great books written by great men, such as Chesterton, Eliot, Lewis and Waugh. And let’s remember that great men write great books because of the Great Books that they’ve read. If the twenty-first century is to produce more great men and more great books, it will have to restore a true education; and a true education is an education as if truth mattered.
+
+Notes:
+
+[\[i\]](http://www.theimaginativeconservative.org/2016/03/education-as-if-truth-mattered.html#_ednref1) Evelyn Waugh, _[Brideshead Revisited](http://astore.amazon.com/theimaginativeconservative-20/detail/0316216453)_, New York: Alfred A. Knopf, Everyman’s Library, 1993, pp. 8–9.
+
+[\[ii\]](http://www.theimaginativeconservative.org/2016/03/education-as-if-truth-mattered.html#_ednref2) _Ibid_., pp. 181–2.
+
+_______This blog post has been reproduced with the permission of [The Imaginative Conservative](http://www.imaginativeconservative.org/). The original blog post can be found [here](http://www.theimaginativeconservative.org/2016/03/education-as-if-truth-mattered.html). The views expressed by the author and The Imaginative Conservative are not necessarily endorsed by this organization and are _simply provided as food for thought from Intellectual Takeout.________???????????

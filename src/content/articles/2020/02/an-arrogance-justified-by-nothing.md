@@ -1,0 +1,41 @@
+---
+title: "An Arrogance Justified by Nothing"
+description: "It was a revealing moment. Former GOP consultant turned Never Trumper Rick Wilson began ridiculing Trump supporters on CNN as “credulous Boomer rube[s]” who believe “Donald Trump is the smart one and y’all elitists are dumb.” Muslim activist and New York Times contributor Wajahat Ali joined in, mimi"
+pubDate: "2020-02-04T00:00:00Z"
+updatedDate: "2020-02-04T00:00:00Z"
+author: "Tom Piatak"
+authorSlug: "tompiatak"
+categories: ["Politics"]
+categorySlugs: ["politics"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/screen_shot_2020-02-04_at_3.06.40_pm-1024x568.png"
+wpId: "74697"
+---
+
+It was a revealing moment. Former GOP consultant turned Never Trumper Rick Wilson began [ridiculing Trump supporters on _CNN_](https://www.youtube.com/watch?v=5Ws6gTylVJE) as “credulous Boomer rube\[s\]” who believe “Donald Trump is the smart one and y’all elitists are dumb.” Muslim activist and New York Times contributor Wajahat Ali joined in, mimicking the rubes’ supposed disdain for “You elitists, with your geography and your maps and your spelling” and “your reading, y’know, your geography, knowin’ other countries, sipping your latte.” Wilson kept pace, aping a Southern accent to speak for the “rubes” who supposedly look with suspicion on “your math and your reading” and disbelief at anyone who can follow “all those lines on the map.”
+
+The third-rate comedy routine had _CNN_ host Don Lemon doubled over in laughter as Wilson and Ali dismissed tens of millions of Americans as beneath contempt. The cackling trio’s open disdain for the so-called Deplorables was matched by an immense self-regard and a belief that those who think like them have a monopoly on knowledge and sophistication. It was a crystalline display of arrogance.
+
+Arrogance is never appealing or justified, but it is sometimes understandable when someone is greatly superior in knowledge or skill. Neither Wilson nor Ali nor Lemon has ever accomplished anything on which to base their cocksure belief that they are smarter and more knowledgeable than Americans who support Trump.
+
+Ali’s disdain was especially grating. Like Ali, my paternal grandfather was born in America to immigrant parents. Unlike Ali, he never would have expressed contempt for Americans whose families had built the successful, prosperous, and well-ordered society his parents had been allowed to enter. He was grateful to be in America and realistic about the role people with names like his had played in the American story.
+
+The blunt truth is that America was a successful country before the first Slovak immigrant arrived, and America would have remained so even if no Slovak immigrant had ever been allowed to come. The same blunt truth applies to immigrants from Pakistan or anywhere else. If Ali cannot summon up gratitude for the fact that his parents were allowed to come here and humility about the role Pakistanis played in creating America, he should get on the next flight to Karachi and bother us no more.
+
+The arrogance and mockery displayed in that _CNN_ clip was far from unusual. It has become a defining characteristic of the social class with which Wilson, Ali, and Lemon identified themselves: the unmerited elites. Earlier incarnations of America’s elite class presided over a successful war for independence from the greatest empire on earth, the creation of the United States Constitution, and the settling and civilizing of the North American continent. They built up an economy that dwarfed all others while also providing a broader level of prosperity than was ever thought possible. They produced a succession of technological advances that stunned the world, culminating in the still-unequalled feat of multiple manned moon landings. And they created a culture that came to set the tone for the entire world, while also producing, at its highest levels, books, films, and music that attained the stature of art.
+
+By contrast, the contemporary elite class has presided over widespread American decline, brought about in part by the succession of bad ideas they have embraced. These brainstorms included the idea that children don’t need both parents and that women don’t need men. That the widespread loss of U.S. manufacturing jobs is actually a good thing. That a foreign policy focused on nation building and projecting democracy into unstable authoritarian countries was superior to one focused on advancing American interests. And concluding that America was better off without an identifiable ethnic core or religious tradition.
+
+The result of such wishful thinking is now evident. Abroad, endless wars in the Mideast that have achieved little while costing trillions of dollars and thousands of lives. At home, millions of children raised without fathers and hundreds of once vibrant communities made economically stagnant, while mortality rates of working-class whites have been increasing and unprecedented ethnic diversity is helping to [fuel distrust in everyday life](https://archive.boston.com/news/globe/ideas/articles/2007/08/05/the_downside_of_diversity/), as distinguished sociologist Robert Putnam reluctantly concluded. Without the open and obvious failure of one elite project after another, Donald Trump would not be president and our elite class would have far fewer people to sneer at, since most Americans would continue to accept its leadership.
+
+Despite its arrogance, today’s elites also know far less than past generations. The days when educated people could be expected to know anything of substance about Homer and Virgil are now only a little less distant than the days when educated people could be expected to read those masterpieces in their original languages. Prestigious universities used to insist that graduates were at least familiar with the basics of Western civilization. Now, those universities are embarrassed by the heritage of the West. The latest example of this is [Yale’s recent decision](https://yaledailynews.com/blog/2020/01/24/art-history-department-to-scrap-survey-course/) to stop offering an introductory survey class on Western art and replace it with a new class dedicated to multiculturalism. The Yale News reported that current instructor Tim Barringer supported eliminating the course he taught because, “\[W\]hen there are so many other regions, genres, and traditions—all ‘equally deserving of study,’ putting European art on a pedestal is ‘problematic.’” The article also reported that the new course “will also consider art in relation to ‘questions of gender, class and ‘race’” and that art’s “relationship with climate change will be a ‘key theme.’”
+
+Yale’s justification for eliminating the course may be fashionable, but it is also nonsense. The blunt truth that Yale is now afraid to teach is that more great art was created in one not especially large room in Rome – the Sistine Chapel – than on entire continents. There is a reason why Japanese television was willing to underwrite the expensive restoration of the Sistine Chapel, just as students of music around the world study Bach, Beethoven, and Mozart, students of literature the world over study Shakespeare, and students of philosophy the world over study Plato and Aristotle. But for decades now, elite institutions have made decision after decision similar to Yale’s, replacing classes exposing students to the ideas and persons that formed Western civilization to ones dedicated to relativizing and even subverting that civilization and increasingly obsessed with intersectionality, gender fluidity, and other ideas that are more or less transparently insane.
+
+As Harvard law professor Adrian Vermeule noted after watching Wilson, Lemon, and Ali in action, “It’s perfectly rational for ordinary Americans to reject any possibility that this class should rule them, even if the alternative is Donald Trump.”
+
+—
+
+_This [article](https://www.chroniclesmagazine.org/an-arrogance-justified-by-nothing/) has been republished with permission from_ Chronicles: A Magazine of American Culture_._
+
+_\[Image Credit: YouTube-The Washington Examiner, “[GOP Senator reacts to CNN’s Don Lemon: They have ‘little regard’ for Middle America](https://www.youtube.com/watch?v=nLV0V5hr4Aw)“\]_

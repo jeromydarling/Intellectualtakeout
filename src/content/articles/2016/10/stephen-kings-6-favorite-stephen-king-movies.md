@@ -1,0 +1,38 @@
+---
+title: "Stephen King’s 6 Favorite Stephen King Movies"
+description: "I rarely, if ever, watch horror movies – unless it’s October. Perhaps it has something to do with the season or Halloween lurking around the corner. Whatever the case, during October I enjoy nothing more than devouring spooky movies of all kinds—psychological thrillers, slasher films, campy B movies"
+pubDate: "2016-10-31T00:00:00Z"
+updatedDate: "2016-10-31T00:00:00Z"
+author: "Jon Miltimore"
+authorSlug: "jonmiltimore"
+categories: ["Entertainment"]
+categorySlugs: ["entertainment"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/stephen_king.jpg"
+wpId: "72940"
+---
+
+I rarely, if ever, watch horror movies – unless it’s October. Perhaps it has something to do with the season or Halloween lurking around the corner. Whatever the case, during October I enjoy nothing more than devouring spooky movies of all kinds—psychological thrillers, slasher films, campy B movies, etc.
+
+This year I rewatched four movies based on Stephen King books—_[Misery](https://www.amazon.com/Misery-James-Caan/dp/B002QUWYWE/ref=as_li_ss_tl?ie=UTF8&qid=1477926332&sr=8-2&keywords=Misery&linkCode=sl1&tag=intelltakeo0d-20&linkId=bf926fc4a34d73711552bb7ca34b058e)_, _[It](https://www.amazon.com/Stephen-King-Tim-Curry/dp/B00HMJTBU2/ref=as_li_ss_tl?ie=UTF8&qid=1477926309&sr=8-1&keywords=It&linkCode=sl1&tag=intelltakeo0d-20&linkId=c4517478fec60c39bdc2b5e01cbb83fa)_, _[The Mist](https://www.amazon.com/s/ref=as_li_ss_tl?url=search-alias=aps&field-keywords=The+Mist&linkCode=sl2&tag=intelltakeo0d-20&linkId=4ced089853cda62e061df1d10c5cf0e1)_, and _[1408](https://www.amazon.com/1408-Widescreen-John-Cusack/dp/B000TJ6PBK/ref=as_li_ss_tl?ie=UTF8&qid=1477926374&sr=8-1&keywords=1408+dvd&linkCode=sl1&tag=intelltakeo0d-20&linkId=4af5db39781268ad0af5e88f4f1aea74)_—and started _[Carrie](https://www.amazon.com/Carrie-Sissy-Spacek/dp/B0046B4VXQ/ref=as_li_ss_tl?ie=UTF8&qid=1477926283&sr=8-1&keywords=Carrie&linkCode=sl1&tag=intelltakeo0d-20&linkId=50cf94bdd5e004076aa480871e4c4b23)_, which I had never seen before. (I actually turned off _Carrie_ 20 minutes into the movie; I found it off-putting, for some reason.)
+
+Some of my more intellectual friends are surprised when they learn I’m a fan of King’s work, both his books and screen adaptations of his work. While King’s work might lack some of the sophistication of other great American authors—say, Cormac McCarthy or Philip Roth—he’s arguably the greatest story-teller alive.
+
+When I was creating my 2016 movie list, I got to wondering what Stephen King movies Stephen King likes best. Lo and behold, King shed some light on this question a few years ago during [an interview with _Rolling Stone_ magazine](http://www.rollingstone.com/culture/features/stephen-king-the-rolling-stone-interview-20141031). He prasied these six films: _[Stand by Me](https://www.amazon.com/Stand-Me-Wil-Wheaton/dp/B00E9Q6H1C/ref=as_li_ss_tl?ie=UTF8&qid=1477926522&sr=8-1&keywords=Stand+Me&linkCode=sl1&tag=intelltakeo0d-20&linkId=94abf43f96188f94cad0b9645a925928)_, _[Shawshank Redemption](https://www.amazon.com/Shawshank-Redemption-Tim-Robbins/dp/B001XUJNJ0/ref=as_li_ss_tl?ie=UTF8&qid=1477926500&sr=8-1&keywords=shawshank+redemption&linkCode=sl1&tag=intelltakeo0d-20&linkId=f8c4d781811cc2151ced2f9a7be95045)_, _[The Green Mile](https://www.amazon.com/Green-Mile-Tom-Hanks/dp/B001EBWIPY/ref=as_li_ss_tl?ie=UTF8&qid=1477926481&sr=8-1&keywords=Green+Mile&linkCode=sl1&tag=intelltakeo0d-20&linkId=a53b19295d483d3423cafb0355275f39)_, _[Delores Claiborne](https://www.amazon.com/Dolores-Claiborne-Kathy-Bates/dp/B004N75GSC/ref=as_li_ss_tl?ie=UTF8&qid=1477926461&sr=8-1&keywords=dolores+claiborne&linkCode=sl1&tag=intelltakeo0d-20&linkId=063e249fee4aafe51370da1e78117264)_, _[Misery](https://www.amazon.com/Misery-James-Caan/dp/B002QUWYWE/ref=as_li_ss_tl?ie=UTF8&qid=1477926332&sr=8-2&keywords=Misery&linkCode=sl1&tag=intelltakeo0d-20&linkId=bf926fc4a34d73711552bb7ca34b058e)_, and _[Cujo](https://www.amazon.com/Cujo-Dee-Wallace/dp/B00HALCYX8/ref=as_li_ss_tl?ie=UTF8&qid=1477926422&sr=8-1&keywords=Cujo&linkCode=sl1&tag=intelltakeo0d-20&linkId=ea3c9e50cdd9773208f039edb38bc549)_.
+
+> **Q: What’s the best movie ever made from one of your books?**  
+> A: Probably _Stand by Me._ I thought it was true to the book, and because it had the emotional gradient of the story. It was moving. I think I scared the shit out of Rob Reiner. He showed it to me in the screening room at the Beverly Hills Hotel. I was out there for something else, and he said, “Can I come over and show you this movie?” And you have to remember that the movie was made on a shoestring. It was supposed to be one of those things that opened in six theaters and then maybe disappeared. And instead it went viral. When the movie was over, I hugged him because I was moved to tears, because it was so autobiographical.
+> 
+> But _[Stand by Me](https://www.amazon.com/Stand-Me-Wil-Wheaton/dp/B00E9Q6H1C/ref=as_li_ss_tl?ie=UTF8&qid=1477926522&sr=8-1&keywords=Stand+Me&linkCode=sl1&tag=intelltakeo0d-20&linkId=94abf43f96188f94cad0b9645a925928)_,_ [Shawshank Redemption](https://www.amazon.com/Shawshank-Redemption-Tim-Robbins/dp/B001XUJNJ0/ref=as_li_ss_tl?ie=UTF8&qid=1477926500&sr=8-1&keywords=shawshank+redemption&linkCode=sl1&tag=intelltakeo0d-20&linkId=f8c4d781811cc2151ced2f9a7be95045)_,_ [The Green Mile](https://www.amazon.com/Green-Mile-Tom-Hanks/dp/B001EBWIPY/ref=as_li_ss_tl?ie=UTF8&qid=1477926481&sr=8-1&keywords=Green+Mile&linkCode=sl1&tag=intelltakeo0d-20&linkId=a53b19295d483d3423cafb0355275f39)_ are all really great ones. _[Misery](https://www.amazon.com/Misery-James-Caan/dp/B002QUWYWE/ref=as_li_ss_tl?ie=UTF8&qid=1477926332&sr=8-2&keywords=Misery&linkCode=sl1&tag=intelltakeo0d-20&linkId=bf926fc4a34d73711552bb7ca34b058e)_ is a great film. _[Delores Claiborne](https://www.amazon.com/Dolores-Claiborne-Kathy-Bates/dp/B004N75GSC/ref=as_li_ss_tl?ie=UTF8&qid=1477926461&sr=8-1&keywords=dolores+claiborne&linkCode=sl1&tag=intelltakeo0d-20&linkId=063e249fee4aafe51370da1e78117264)_ is a really, really good film. _[Cujo](https://www.amazon.com/Cujo-Dee-Wallace/dp/B00HALCYX8/ref=as_li_ss_tl?ie=UTF8&qid=1477926422&sr=8-1&keywords=Cujo&linkCode=sl1&tag=intelltakeo0d-20&linkId=ea3c9e50cdd9773208f039edb38bc549)_ is terrific.
+
+It’s a pretty terrific list, though I must confess that I somehow managed to miss _Cujo_. What I found most surprising, however, was the absence of a certain movie from the list: _[The Shining](https://www.amazon.com/Shining-Jack-Nicholson/dp/B000GWE44U/ref=as_li_ss_tl?ie=UTF8&qid=1477926219&sr=8-1&keywords=The+Shining&linkCode=sl1&tag=intelltakeo0d-20&linkId=0619ab1bcd97d5b1c42d25c0991bf5bc)_. It’s perhaps my favorite horror film, but one King apparently despised.
+
+“Jack was crazy from the first scene,” King told _Rolling Stone_. “I had to keep my mouth shut at the time. It was a screening, and Nicholson was there. But I’m thinking to myself the minute he’s on the screen, “Oh, I know this guy. I’ve seen him in five motorcycle movies, where Jack Nicholson played the same part.”
+
+On this last point, King and I disagree. Stanley Kubrick, with the help of a truly terrifying Jack Nicholson, created a horror movie that that set the gold standard for the genre and stands the test of time.
+
+This minor quibble with King, however, will not stop me from watching _[Silver Bullet](https://www.amazon.com/Stephen-Kings-Silver-Bullet-Busey/dp/B00271B6R6/ref=as_li_ss_tl?ie=UTF8&qid=1477926257&sr=8-1&keywords=Silver+Bullet&linkCode=sl1&tag=intelltakeo0d-20&linkId=066d4e21d9477a1b12fb44b043717c63)_ after the kids go to sleep Halloween night.
+
+—
+
+\[Image Credit: [http://ru-stephenking.livejournal.com/\]](http://ru-stephenking.livejournal.com/)

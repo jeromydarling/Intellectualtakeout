@@ -1,0 +1,75 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { allArticles, articlePath, byCategory, slugify } from '../lib/content';
+
+const articles = await allArticles();
+const withHero = articles.filter((a) => a.data.heroImage);
+const hero = withHero.slice(0, 5);
+const heroIds = new Set(hero.map((a) => a.id));
+const latest = articles.filter((a) => !heroIds.has(a.id)).slice(0, 6);
+const featured = byCategory(articles, 'featured').slice(0, 4);
+const culture = byCategory(articles, 'culture').slice(0, 3);
+const politics = byCategory(articles, 'politics').slice(0, 3);
+const education = byCategory(articles, 'education').slice(0, 3);
+---
+
+<Base>
+  <div class="container">
+    <div class="hero_grid">
+      {hero.map((a, i) => (
+        <a class={`hero_tile ${i < 2 ? 'big' : 'small'}`} href={articlePath(a)}>
+          <img src={a.data.heroImage} alt={a.data.title} loading={i === 0 ? 'eager' : 'lazy'} />
+          <span class="overlay">
+            <span class="cats">
+              {a.data.categories.slice(0, 4).map((c) => <span style="background:rgba(0,0,0,.55);color:#fff;padding:3px 6px;margin-right:4px;">{c}</span>)}
+            </span>
+            <h2>{a.data.title}</h2>
+          </span>
+        </a>
+      ))}
+    </div>
+
+    <div class="cta_row">
+      <div class="cta">
+        <h3>Support rational discourse.</h3>
+        <a class="theme_button" href="/donate/">Donate</a>
+      </div>
+      <div class="cta">
+        <h3>Get the latest articles delivered daily.</h3>
+        <a class="theme_button" href="/subscribe/">Subscribe</a>
+      </div>
+    </div>
+
+    {featured.length > 0 && (
+      <section style="margin-top:30px;">
+        <h2 class="box_header">Shareable Snacks</h2>
+        <div class="posts_grid three" style="grid-template-columns:repeat(4,1fr);gap:18px;">
+          {featured.map((a) => <PostCard article={a} showByline={false} />)}
+        </div>
+      </section>
+    )}
+
+    <div class="columns_layout">
+      <main>
+        <h2 class="box_header">Latest Posts</h2>
+        <div class="posts_grid">
+          {latest.map((a) => <PostCard article={a} />)}
+        </div>
+
+        {[['Latest From Culture', 'culture', culture], ['Politics', 'politics', politics], ['Education', 'education', education]].map(
+          ([label, slug, items]) => (
+            <section style="margin-top:34px;">
+              <h2 class="box_header"><a href={`/category/${slug}/`}>{label}</a></h2>
+              <div class="posts_grid three">
+                {(items as any[]).map((a) => <PostCard article={a} />)}
+              </div>
+            </section>
+          )
+        )}
+      </main>
+      <Sidebar articles={articles} />
+    </div>
+  </div>
+</Base>

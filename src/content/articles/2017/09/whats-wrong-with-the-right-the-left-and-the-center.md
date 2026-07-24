@@ -1,0 +1,43 @@
+---
+title: "What’s Wrong with the Right, the Left, AND the Center"
+description: "I consider myself politically homeless, and have for a while now. I started out as a ‘campus leftist’ or ‘social justice warrior’, knee-deep in the works of Marx and Marcuse, Horkheimer and Habermas. But life as an expat in China changed my outlook somewhat. Witnessing the marriage between a communi"
+pubDate: "2017-09-26T00:00:00Z"
+updatedDate: "2017-09-26T00:00:00Z"
+author: "Matthew Franklin Cooper"
+authorSlug: "matthewfranklincooper"
+categories: ["Politics"]
+categorySlugs: ["politics"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/screen_shot_2017-09-26_at_2.28.55_pm-1024x596.png"
+wpId: "77763"
+---
+
+I consider myself politically homeless, and have for a while now.
+
+I started out as a ‘campus leftist’ or ‘social justice warrior’, knee-deep in the works of [Marx](https://www.marxists.org/archive/marx/works/1845/german-ideology/) and [Marcuse, Horkheimer and Habermas](https://www.marxists.org/subject/frankfurt-school/).
+
+But life as an expat in China changed my outlook somewhat. Witnessing the marriage between a communist state and its native business class as they [bulldozed _hutongs_ to make way for office parks](https://www.theatlantic.com/international/archive/2012/02/razing-history-the-tragic-story-of-a-beijing-neighborhoods-destruction/252760/) and Olympic facilities in your adopted neighbourhood will do that to you.
+
+I began to realise that much too much of American leftism has a serious flaw. It’s not that the desire for justice—even the dreaded ‘social justice’!—is necessarily unhealthy or poisonous. Rather, it’s the fact that most of American liberalism and leftism refuses to plant the young shoots of ‘social justice’ in a metaphysical soil which would nourish it and give it stability, solidity and health, and root it against the weather of the left’s perennial, or at least generational, [sexual neuroses](http://books.wwnorton.com/books/The-Culture-of-Narcissism/).
+
+All questions of justice are appeals—not to sympathy or even necessarily to compassion, but instead to a _recognition_ that other human beings have the same depth of experience, the same emotions, the same basic needs, even the same sublimity and creativity that we do. The only way we can get to that recognition is by allowing for a common human nature. Even if there are exceptions to the rule, there needs to be a [recognition of the human](http://classics.mit.edu/Plato/phaedrus.html) [_soul_](http://classics.mit.edu/Plato/phaedrus.html) as something infinitely precious and worthy of being valued for its own sake.
+
+But how can this recognition take place within a purely materialist framework, like that of Marxism? Or—to speak more to our American experience where real Marxism never really left the academy—how can this recognition take place in a public political environment shaped by the utilitarian instrumental [pragmatism](https://www.philosophytalk.org/shows/american-pragmatism) of Dewey, James and Peirce, that sanitises and bureaucratises entire fields of human experience, and keeps them pristinely out of the reach of the common rabble by shoving them into a government office?
+
+More to the point. How can I take seriously the pretensions of a ‘left’ to be just, when so many of their members heap vituperation and discrimination so willingly on the ‘great unwashed’? How can so few in the American liberal left [see the irony](http://listenliberal.com/) that they’ve made of themselves a tiny intellectual _clique_ that prides itself on being _better than_, _more worthy_ than the average American? ‘Some animals are more equal than others.’
+
+And yet, I could never find it in me to really join the ranks of the right, even as I consciously turned away from the mainstream of the American liberal left. The conservative thinkers of the twentieth century whose writings I connected most profoundly with were also some of the most politically marginal: [Peter Viereck](http://www.journals.uchicago.edu/doi/abs/10.1086/237375), [George Parkin Grant](http://clarionjournal.typepad.com/clarion_journal_of_spirit/2006/06/george_grant_la.html), [Aleksandr Solzhenitsyn](http://www.nytimes.com/books/98/03/01/home/solz-ivan.html?mcubz=3), [Allan Bloom](http://www.thepublicdiscourse.com/2017/05/18956/), [Wendell Berry](http://www.theimaginativeconservative.org/author/wendell-berry), [John Milbank](http://journals.sagepub.com/doi/abs/10.1177/095394689200500113), [Bill Kauffman](https://www.barnesandnoble.com/w/aint-my-america-bill-kauffman/1101739272?ean=9780805082449), [Andrew Bacevich](https://www.barnesandnoble.com/w/limits-of-power-andrew-j-bacevich/1100357095#/), [Peter Hitchens](https://www.barnesandnoble.com/w/abolition-of-britain-peter-hitchens/1102506590). These were all people who, notably, had a deep and grave sense of the burden of history and the brokenness of humanity. They were attuned to irony. They saw the ‘law of unintended consequences’ as more than merely a political slogan—they saw it as a tragic universal truth.
+
+I noticed at once the disconnect between the way the great thinkers of the right _thought_, and the way the movement they inspired _acted_. To read Viereck or Grant on the topic of conservatism is to become aware of the ‘long defeat’ which bookends the conservative worldview. To read Solzhenitsyn is to humble oneself in awareness of the evil, the lies, lurking even in one’s own heart. But movement conservatism carried itself ever forward with the zeal and self-assurance of Jacobins. As for the World Controller in Huxley’s _Brave New World_: for them too, history is _bunk_. How telling is it that the touchstones of history for the American right are all less than 160 years old? How telling is it that Republicans still believe that the world can be changed for the better with the right application of American military force, even given the horrors which we not only failed to prevent, but actually _caused_, in conflict after conflict from the Korean War forward (at least)?
+
+To me, this disconnect always seemed like something of a betrayal. To translate the great eternal truths to which these conservative thinkers pointed into a mere _programme of politics_ profoundly cheapened it and robbed it of the grand historical and moral awarenesses which had given these writers their profound beauty. Like them, I never bought into the mad notion that the crooked timber of humanity could be straightened by cutting a tax, rolling back a regulation or defunding a public welfare programme.
+
+I looked for a politics that could embrace, on the one hand, a metaphysics that could justify justice; and on the other hand, a historical wisdom that could value the invaluable.
+
+I haven’t found that politics in the center, either.
+
+The American center combines the very worst of all possible worlds. The American [‘No Labels’](https://www.nytimes.com/2016/11/29/opinion/the-future-of-the-american-center.html?mcubz=3&_r=0) centrist of the sort best represented by David Brooks, Thomas Friedman, David Frum, Bill Galston (and, lately, Bill Kristol) and Michael Bloomberg, is proudly and unapologetically philistine. His soul is cold to the wisdom of the ages, but waxes fawning over TED talks, crisp infographics and suitably-trendy business-world catchphrases. He waxes poetic over the homely virtues of small-town America but decorously declines to sully his pristine white collar by actually going there. He chides the prophet for being ‘polarising’ and the philosopher for being ‘impractical’, but lionises the bureaucrat and the big businessman as dynamic, problem-solving visionaries who move and shake the globe. He is aware there is a crisis of legitimacy in American politics, but is also wilfully blind to the fact that the crisis is of his own making. In short, he is a purely political creature who has forgotten what politics is _for_, and indeed prides himself on the fact—and this preoccupation without self-awareness renders him, in the end, a predictable and utter bore.
+
+So, here I am, a (for want of a better word) left-conservative, loosely in the mould of [Norman Mailer](https://www.theguardian.com/books/2003/jan/25/history.politics) and [Christopher Lasch](http://www.theamericanconservative.com/articles/the-radical-lasch/): calling for a re-evaluation of politics itself in terms which run deeper than politics, in terms often associated with tradition and the Western canon. I can tease out subtle strands of nobility and higher aspiration both in the left and in the right, and even in libertarianism.
+
+However, the more I consider it, the more I’m convinced that adopting any of these ideologies wholesale is a conscious exercise in madness.

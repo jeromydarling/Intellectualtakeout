@@ -1,0 +1,43 @@
+---
+title: "Stop Boycotting SeaWorld if Conservation is Important to You"
+description: "In 2010, the death of Dawn Brancheau, a trainer at SeaWorld Orlando, focused attention on the entertainment groups’ orca (or killer whale) shows. The subsequent release of the documentary Blackfish (2013) detailing captive breeding and training at SeaWorld shifted public perception of dolphin and wh"
+pubDate: "2017-12-13T00:00:00Z"
+updatedDate: "2017-12-13T00:00:00Z"
+author: "Samantha Muka"
+authorSlug: "samanthamuka"
+categories: ["Politics"]
+categorySlugs: ["politics"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/seaworld_conservation-1024x671.jpg"
+wpId: "77407"
+---
+
+In 2010, the death of Dawn Brancheau, a trainer at SeaWorld Orlando, focused attention on the entertainment groups’ orca (or killer whale) shows. The subsequent release of the documentary _Blackfish_ (2013) detailing captive breeding and training at SeaWorld shifted public perception of dolphin and whale shows from entertainment to something akin to [enslavement](https://aeon.co/essays/why-it-s-time-to-put-an-end-to-the-cult-of-the-aquarium). SeaWorld was particularly slow to respond to concerns and [critiques](https://aeon.co/ideas/why-taking-children-to-an-aquarium-is-a-lesson-in-cruelty) regarding their orca programming, going from a defensive and defiant group unwilling to do more than expand orca enclosures in 2015 to a more conciliatory announcement that they would stop their orca breeding programme and drastically change the format of their shows in [2016](http://news.nationalgeographic.com/2016/03/160317-seaworld-orcas-killer-whales-captivity-breeding-shamu-tilikum/). Despite these changes, the company has continued to lose revenue. SeaWorld [posted](http://www.seaworldinvestors.com/news-releases/news-release-details/2017/SeaWorld-Entertainment-Inc-Reports-First-Quarter-2017-Results/default.aspx) declining attendance in 2017, down 15 per cent compared with the same quarter in 2016. This drop in attendance resulted in a revenue difference of $33.9 million.
+
+The controversy surrounding _Blackfish_ has driven environmentally conscious consumers away from one of the most active contributors to marine conservation research in the United States. A recent [study](https://content.yudu.com/web/2r8b9/0A2rlk8/DestinologyJuly2017/html/index.html) by PGAV Destinations shows that millennials perceive zoos and aquariums as integral to conservation goals; visiting these spaces is how they show their support. However, patronage is dependent on a belief that these spaces are properly contributing to conservation and animal welfare. The drop in attendance at SeaWorld shows that many millennial visitors are not convinced that the company is actively engaging in decisions that are both good for the environment and for the animals that they keep in captivity. In essence, the controversy surrounding the orca-breeding programme has eclipsed all of SeaWorld’s previous and current conservation initiatives.
+
+These reluctant visitors might be surprised to learn that SeaWorld plays an integral role in a whole host of marine conservation initiatives throughout the world. As a for-profit endeavour, the company has the ability to provide both space and funding for a wide array of marine research projects. As their profits fall, their inability to perform these much-needed services threatens the wider marine-science community. If consumers and animal activists truthfully care about the health and wellbeing of marine organisms, they should think about planning a visit to SeaWorld.
+
+All three SeaWorld facilities (San Diego, San Antonio and Orlando) are accredited by the American Association of Zoos and Aquariums (AZA). There are many aspects of AZA accreditation, but one big hurdle to certification is the requirement that these institutions contribute large amounts of their operating budget to scientific and conservation initiatives.
+
+One way that SeaWorld contributes to both conservation and basic science initiatives is through the Hubbs-SeaWorld Research Institute (HSWRI). Founded in 1963, the HSWRI partners with federal, academic and other aquatic institutions throughout the world to study marine life. SeaWorld provides both funding and space for research. Their continued support for this endeavour has resulted in an [abundance of research](http://hswri.org/publications/) on everything from embryological development in fishes to the impact of sound on bird migration and nesting habits.
+
+SeaWorld also funds conservation and science through the SeaWorld and Busch Gardens Conservation Fund. One recent group to receive funding is Rising Tide Conservation, a network of institutions dedicated to increasing the number of aquacultured species available on the market. This is a particularly important conservation goal considering the role that the aquarium industry has had in the depletion of fish species. SeaWorld’s facilities and researchers provide a steady stream of reproductive material with which other labs can work. In 2015, one of Rising Tide Conservation’s lab partners, the Oceanic Institute of Hawaii Pacific University, succeeded in closing the cycle on the yellow tang. Soon after, researchers at the University of Florida’s Tropical Aquaculture Laboratory visited Hawaii to learn the techniques used for yellow tang aquaculture. Funded through Rising Tide and SeaWorld, the Florida lab worked closely with the Hawaii lab to culture the blue tang (also known as the Dory fish, after the movie). The labs proved successful in 2016. To date, the programme has successfully cultured more than 20 species.
+
+In addition to funding, SeaWorld also serves as an important space for animal rescue and rehabilitation. When a large marine animal is stranded, it is not easy to find a space big enough for rehabilitation. SeaWorld is one of only three spaces in Florida capable of housing, rehabilitating and releasing stranded manatees. Meanwhile, SeaWorld San Diego is one of only a few institutions that has successfully rehabilitated and released a whale calf. In 1997, they released JJ, a grey whale calf found stranded at three days old. During this process, SeaWorld invited researchers in the scientific community to study the calf and to work with staff in-house to develop a release plan. SeaWorld San Diego rehabilitates between 100-200 animals (on average) each year, and SeaWorld Orlando has more than 30,000 rescues to date. In the event of an animal’s death, in-house necropsies provide DNA and materials, which have been used in marine-disease research.
+
+SeaWorld’s contributions to marine conservation and science give insights into the role of corporations in these endeavours. They have also grown with the fabric of the marine-science network over the past 50 years, and they rely on and contribute to cutting-edge marine science. SeaWorld cannot survive without acknowledging the role that marine science and conservation play, both in the sustainability of their business, and the importance of those aspects to their clientele.
+
+The pressure placed on the company to stop orca-breeding and circus-like shows has shown that consumers have great power, especially when it comes to steering the endeavours of cultural institutions. SeaWorld’s current cetacean management programme looks similar to other major public aquariums. I agree wholeheartedly with the continued efforts of those communities who are working to pressure all marine programmes to treat their cetaceans more respectfully.
+
+But what happens if this pressure sinks the whole ship? As federal budgets for research, and especially conservation research, are threatened, it is time that we acknowledge that corporations have been, and will continue to be, incredibly important for funding these conservation and research efforts. SeaWorld has shown itself to be a partner in a wide range of conservation initiatives.
+
+Perhaps it is time to reevaluate your conservation goals, and revisit SeaWorld.![Aeon counter – do not remove](https://metrics.aeon.co/count/2700e38e-f196-44b6-9f3b-8aa943dbace2.gif)
+
+–
+
+_This article was originally published at [Aeon](https://aeon.co) and has been republished under Creative Commons._
+
+_Dear Readers,_
+
+_Big Tech is suppressing our reach, refusing to let us advertise and squelching our ability to serve up a steady diet of truth and ideas. Help us fight back by [becoming a member](https://www.chroniclesmagazine.org/subscribe/) for just $5 a month and then join the discussion on Parler [@CharlemagneInstitute](https://parler.com/profile/CharlemagneInstitute)!_

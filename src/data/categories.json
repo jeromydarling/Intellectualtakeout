@@ -1,0 +1,186 @@
+[
+ {
+  "id": 17,
+  "name": "Breaking News",
+  "slug": "breaking-news",
+  "description": "",
+  "count": 16,
+  "parent": 0
+ },
+ {
+  "id": 6,
+  "name": "Culture",
+  "slug": "culture",
+  "description": "",
+  "count": 5766,
+  "parent": 0
+ },
+ {
+  "id": 93,
+  "name": "Donate",
+  "slug": "donate",
+  "description": "",
+  "count": 6,
+  "parent": 0
+ },
+ {
+  "id": 8,
+  "name": "Economics",
+  "slug": "economics",
+  "description": "",
+  "count": 790,
+  "parent": 0
+ },
+ {
+  "id": 2,
+  "name": "Education",
+  "slug": "education",
+  "description": "",
+  "count": 1319,
+  "parent": 0
+ },
+ {
+  "id": 16,
+  "name": "Entertainment",
+  "slug": "entertainment",
+  "description": "",
+  "count": 296,
+  "parent": 0
+ },
+ {
+  "id": 5,
+  "name": "Family",
+  "slug": "family",
+  "description": "",
+  "count": 532,
+  "parent": 0
+ },
+ {
+  "id": 26,
+  "name": "Featured",
+  "slug": "featured",
+  "description": "",
+  "count": 773,
+  "parent": 0
+ },
+ {
+  "id": 18,
+  "name": "From the Editorial Board",
+  "slug": "from-the-editorial-board",
+  "description": "",
+  "count": 7,
+  "parent": 0
+ },
+ {
+  "id": 99,
+  "name": "Health",
+  "slug": "health",
+  "description": "",
+  "count": 50,
+  "parent": 0
+ },
+ {
+  "id": 7,
+  "name": "History",
+  "slug": "history",
+  "description": "",
+  "count": 647,
+  "parent": 0
+ },
+ {
+  "id": 3,
+  "name": "Image Credit:  Flickr- Jay Bergesen ,  CC BY 2.0",
+  "slug": "image-credit-flickr-jay-bergesen-cc-by-2-0",
+  "description": "",
+  "count": 0,
+  "parent": 0
+ },
+ {
+  "id": 4,
+  "name": "Image Credit:  Public Domain",
+  "slug": "image-credit-public-domain",
+  "description": "",
+  "count": 0,
+  "parent": 0
+ },
+ {
+  "id": 14,
+  "name": "International",
+  "slug": "international",
+  "description": "",
+  "count": 264,
+  "parent": 0
+ },
+ {
+  "id": 13,
+  "name": "Literature",
+  "slug": "literature",
+  "description": "",
+  "count": 222,
+  "parent": 0
+ },
+ {
+  "id": 98,
+  "name": "MomThink",
+  "slug": "momthink",
+  "description": "",
+  "count": 212,
+  "parent": 0
+ },
+ {
+  "id": 12,
+  "name": "Philosophy",
+  "slug": "philosophy",
+  "description": "",
+  "count": 283,
+  "parent": 0
+ },
+ {
+  "id": 9,
+  "name": "Politics",
+  "slug": "politics",
+  "description": "",
+  "count": 1350,
+  "parent": 0
+ },
+ {
+  "id": 11,
+  "name": "Religion",
+  "slug": "religion",
+  "description": "",
+  "count": 262,
+  "parent": 0
+ },
+ {
+  "id": 10,
+  "name": "Science",
+  "slug": "science",
+  "description": "",
+  "count": 247,
+  "parent": 0
+ },
+ {
+  "id": 1,
+  "name": "Uncategorized",
+  "slug": "uncategorized",
+  "description": "",
+  "count": 287,
+  "parent": 0
+ },
+ {
+  "id": 97,
+  "name": "Video",
+  "slug": "video",
+  "description": "",
+  "count": 16,
+  "parent": 0
+ },
+ {
+  "id": 15,
+  "name": "Western Civilization",
+  "slug": "western-civilization",
+  "description": "",
+  "count": 260,
+  "parent": 0
+ }
+]

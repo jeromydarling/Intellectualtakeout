@@ -1,0 +1,42 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import PostCard from '../../../components/PostCard.astro';
+import Sidebar from '../../../components/Sidebar.astro';
+import Pagination from '../../../components/Pagination.astro';
+import { allArticles, byAuthor } from '../../../lib/content';
+import { SITE } from '../../../lib/site';
+import authors from '../../../data/authors.json';
+
+export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
+  const articles = await allArticles();
+  return authors.flatMap((author) => {
+    const items = byAuthor(articles, author.slug);
+    if (items.length === 0) return [];
+    return paginate(items, {
+      params: { slug: author.slug },
+      props: { author },
+      pageSize: SITE.postsPerPage,
+    });
+  });
+};
+
+const { page, author } = Astro.props as any;
+const articles = await allArticles();
+const title = page.currentPage > 1 ? `${author.name} - Page ${page.currentPage}` : author.name;
+---
+
+<Base title={title} description={`Articles by ${author.name} at ${SITE.name}.`}>
+  <div class="container">
+    <div class="columns_layout">
+      <main>
+        <h1 class="box_header">Articles by {author.name}</h1>
+        <div class="posts_grid">
+          {page.data.map((a: any) => <PostCard article={a} showByline={false} />)}
+        </div>
+        <Pagination page={page} />
+      </main>
+      <Sidebar articles={articles} />
+    </div>
+  </div>
+</Base>

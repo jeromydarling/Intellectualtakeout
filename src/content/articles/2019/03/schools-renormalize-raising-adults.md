@@ -1,0 +1,37 @@
+---
+title: "Schools Renormalize Raising Adults"
+description: "Many of us are old enough to remember how childhood used to be. Our afternoons were spent outside playing with the neighborhood kids—no adults or cell phones in sight. Sometimes we got hurt, with occasional scraped knees or hurt egos, but we worked it out. We always knew we could go home. We had pap"
+pubDate: "2019-03-04T00:00:00Z"
+updatedDate: "2024-02-27T19:31:50Z"
+author: "Kerry McDonald"
+authorSlug: "kerrymcdonald"
+categories: ["Culture"]
+categorySlugs: ["culture"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/freerangekids.jpg"
+wpId: "75868"
+---
+
+Many of us are old enough to remember how childhood used to be. Our afternoons were spent outside playing with the neighborhood kids—no adults or cell phones in sight. Sometimes we got hurt, with occasional scraped knees or hurt egos, but we worked it out. We always knew we could go home. We had paper routes, mowed lawns, ran errands, and babysat at ages much earlier than we allow our own kids. What happened to childhood in just a generation that now prompts neighbors to call the police when they see [an eight-year-old walking her dog](https://fee.org/articles/stop-criminalizing-parenthood/)?
+
+The answer rests on a host of cultural changes over the last few decades. As Lenore Skenazy writes in her book, _[Free-Range Kids](http://www.amazon.com/Free-Range-Raise-Self-Reliant-Children-Without/dp/0470574755)_, the combination of 24-hour news media that often sensationalizes rare events like child abductions, as well as the introduction of true crime dramas, often make it seem like the world is less safe today than it used to be—despite [crime statistics showing otherwise](https://www.washingtonpost.com/news/wonk/wp/2015/04/14/theres-never-been-a-safer-time-to-be-a-kid-in-america/?utm_term=.f7dc65b25e3a). As more mothers entered the workforce, demand for full-day kindergarten and after-school care surged, limiting opportunities for afternoon free play. Now, many parents [don’t seem to value free play](https://news.gallup.com/reports/214766/7.aspx?g_source=CATEGORY_EDUCATION&g_medium=topic&g_campaign=tiles) and childhood independence, preferring instead to focus their children’s time on structured, adult-led activities and organized extracurriculars. We have a generation of children today under constant surveillance.
+
+I’m guilty of this, too—hovering over my kids more than I’d like to admit. I’m nervous when my older ones walk to the store or the library despite knowing that I walked much further at their age. I tell them to let me know when they arrive somewhere, although my mother said recently that it never occurred to her to ask the same of me when I was young. Despite a much safer childhood today, we [worry more about children](https://www.nytimes.com/2018/07/27/opinion/sunday/motherhood-in-the-age-of-fear.html) and subsequently limit their freedom and independence.
+
+## Let Grow
+
+Some parents and educators are pushing back on this troubling trend. Skenazy is now president of [Let Grow](https://letgrow.org/), a non-profit organization that she co-founded to help families and communities recapture childhood independence and play. One of their most successful initiatives involves teaming up with interested school districts across the country to assign Let Grow Projects to elementary and middle school students. Teachers tell their students to go home and do something independently that they haven’t done before—with their parents’ permission. Some of these projects might be to make themselves a sandwich or ride their bike to the store. As Skenazy told me in a recent interview: “This is so simple but so transformative. We are trying to renormalize letting go.”
+
+Skenazy described one town in Connecticut that has implemented the Let Grow Project community-wide. She explained how an elementary school-age child rode his bike to a local market. At first, the shopkeepers were concerned. Where was the boy’s parent? Why was he alone? When he explained he was doing a Let Grow Project for school and his task was to go to the market by himself, the shopkeepers relaxed. As more children visited, the shopkeepers and customers became accustomed to welcoming children into the store. It became less unusual, less alarming—more like it used to be. All of the resources and suggestions for Let Grow Projects are available for free on the [organization’s website](https://letgrow.org/program/lgproject/) and can be implemented by any interested family or group. “The reason we go through schools,” says Skenazy, “is so we can transform whole communities.” It’s not just the parents who are fearful of granting children more freedom and independence; it’s the community as a whole that is unaccustomed to seeing free and independent children.
+
+That said, much of the change is focused on parents. The Let Grow Project encourages parents to give their children more autonomy, to allow kids to take age-appropriate risks and build resilience and confidence. When parents know that they are not the only ones in their community who are providing this freedom, they are more willing to try it. Once they do, they feel great joy in seeing their children successfully take on these solo challenges. Skenazy explains: “The reward for parenting is to let go so you can see what a great job you’ve done, what a great kid you’re raising. The joy is what rewires the parents.”
+
+## Bringing Back Play
+
+While offering children more freedom and independence is a central goal of Let Grow, reclaiming childhood play is also a priority. With mounting [research showing a link](http://www.journalofplay.org/sites/www.journalofplay.org/files/pdf-articles/3-4-article-gray-decline-of-play.pdf) between the decline in play and the rise in childhood mental health disorders, Skenazy and her colleagues feel a sense of urgency in finding ways to bring back free play. The [Let Grow Play Club](https://letgrow.org/program/after-school-free-play/) is an initiative to get more schools to open up their playgrounds and gymnasiums for after-school free play. Adults are present to ensure safety, but the goal is for them to stay on the sidelines and allow children of mixed ages to make up their own games, work out their own conflicts, and build important life skills, like collaboration and compromise, through self-directed play. Unlike the Let Grow Project, the Play Clubs have been slower to catch-on. Skenazy thinks this is due in part to the additional, small expense of adult play supervisors, but it’s mostly related to a lack of demand for free play. “We need parents to recognize that these are the skills kids are going to need—resilience, organization, empathy, creativity, negotiation—rather than structured extracurriculars.”
+
+It’s unfortunate, of course, that we need projects and play clubs to grant our children a taste of the freedom and fun we enjoyed as kids. But at a time when children have virtually disappeared from our neighborhood sidewalks and public spaces, efforts to reintroduce children into our communities and let them play should be widely embraced. Those of us who remember the value of an independent and play-filled childhood can be the ones to reintroduce this gift to today’s children.
+
+—
+
+This article was originally published on FEE.org. Read the [original article](https://fee.org/articles/childhood-play-and-independence-are-disappearing-let-grow-seeks-to-change-that/).

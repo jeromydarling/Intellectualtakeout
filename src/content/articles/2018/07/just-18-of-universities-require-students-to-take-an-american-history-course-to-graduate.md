@@ -1,0 +1,49 @@
+---
+title: "Just 18% of Universities Require Students to Take an American History Course to Graduate"
+description: "Though college leaders constantly remind the public about the value of a college degree, graduates sometimes leave without important knowledge. As Americans celebrate the 4th of July holiday, it’s a good time to reflect on just how little college students know about the Declaration of Independence a"
+pubDate: "2018-07-05T00:00:00Z"
+updatedDate: "2018-07-05T00:00:00Z"
+author: "Anthony Hennen"
+authorSlug: "anthonyhennen"
+categories: ["Culture"]
+categorySlugs: ["culture"]
+tags: []
+heroImage: "/wp-content/uploads/2022/03/book-book-pages-encyclopedia-69004_1-1024x683.jpg"
+wpId: "76673"
+---
+
+Though college leaders constantly remind the public about the value of a college degree, graduates sometimes leave without important knowledge. As Americans celebrate the 4th of July holiday, it’s a good time to reflect on just how little college students know about the Declaration of Independence and American history.
+
+The data are depressing. A 2016 [report](https://www.goacta.org/images/download/A_Crisis_in_Civic_Education.pdf) from the American Council of Trustees and Alumni called the lack of knowledge “a crisis in civic education.” Surveying over 1,000 liberal arts colleges, ACTA found that only 18 percent require an American history course for graduation. Almost 40 percent of college graduates didn’t know that Congress holds the power to declare war. And almost 60 percent couldn’t give one method for ratifying a constitutional amendment. “Instead of demanding content-based coursework, our institutions have, in too many places, supplanted the rigorous study of history and government—the building blocks of civic engagement—with community-service activities,” the report noted. Volunteering near campus may be good for some things, but it’s a bad substitute for learning.
+
+Nor is ACTA the only group to study the failure of American civic education. The Obama-era [Department of Education](https://www.ed.gov/civic-learning) worried that civic ignorance meant fewer young Americans would engage in the democratic process. Groups on the left, such as the [Center for American Progress](https://www.americanprogress.org/issues/education-k-12/reports/2018/02/21/446857/state-civics-education/), had similar fears. The problem is well-known, but a solution is less clear.
+
+Some of the concern over students’ ignorance can be dismissed as hand-wringing. The minutiae of historical facts can be forgotten out of context. College students forgetting a few key names and dates, for example, might be embarrassing, but it is also forgivable. But not all the ignorance is so benign, and the legitimate concerns are not focused on knowledge mostly useful during _Jeopardy!_ and trivia nights at the local bar. Many college students don’t know which rights are codified in the Bill of Rights or basic information about the structure and limits of government.
+
+That ignorance cannot be glossed over or defended easily. As Rebecca Burgess of the American Enterprise Institute told the [Harvard Political Review](http://harvardpolitics.com/culture/civic-illiteracy-in-america/) in 2017, “If a third of adult Americans don’t even know what the three branches of government are, that there are three branches of government, that we have a separation of powers, then…our ideas of what government ought to be doing will be different from people who think that there are three branches of government.” Ignorance about civics enables politicians to abuse their power because its citizens don’t accept their civic responsibility.
+
+But being ignorant about American history and government has become commonplace, even expected of younger people. How to teach Americans their history—in high school and in college—has long been an unsolved problem. For decades, [surveys have revealed](https://www.washingtonpost.com/local/education/will-better-civics-classes-lead-to-a-better-america-dont-count-on-it/2018/03/04/c4048aa4-1ce8-11e8-b2d9-08e748f892c0_story.html?utm_term=.faaeea383153) just how little high school students, college students, and the general population know of their nation’s history.
+
+Though colleges don’t deserve all the blame, they could do more to teach their students basic facts and principles. Elite colleges have abdicated their responsibility to teach American history—even for history majors. Another 2016 [ACTA report](https://www.goacta.org/images/download/no_u_s_history.pdf) found that less than one-third of history programs at elite colleges required a course on national history in their general education requirements. ACTA even overstates that number to benefit colleges, as it counted narrow courses like “history of the FBI” as a credit for American history.
+
+And as teaching about our nation’s past declines, “diverse” history courses surge. The University of North Carolina at Chapel Hill, for instance, has a [“U.S. Diversity” requirement](http://www.catalog.unc.edu/undergraduate/general-education-curriculum-degree-requirements/) for all students. Some of the courses can serve as an American history course, but students choose among 247 classes, and the majority of them are too narrow or non-American-focused to provide understanding the United States government.
+
+Even [history majors](https://history.unc.edu/undergraduate-program/the-history-major/) don’t need to study American history to complete their degree requirements—but they must take a class in African, Asian, and Middle Eastern, or Latin American history to do so. The University of California at Berkeley is the rare elite college with an [American history requirement](http://guide.berkeley.edu/undergraduate/colleges-schools/letters-science/american-history-institutions-requirement/) for all students: they take one class in American history and one class in American institutions. But students can get an exemption with their high school credits or a high score on their AP or SAT exams.
+
+By not accepting the burden of teaching American history and embracing its challenges, universities are not living up to one important justification for the public largesse they enthusiastically accept: they are not sustaining the American project. As ACTA wrote in their first report, “Our civic values will fail unless they are constantly renewed through an education that prepares each generation to participate in a democratic republic and to understand the struggles, past and present, that sustain our liberty.” If public and private colleges alike accept public funding, they have a responsibility to prepare students for civic life.
+
+Making students better informed of our shared past doesn’t necessarily mean Americans will elect better politicians or effect better governance, though. Some [academic studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024445/) and surveys have drawn a connection between civics knowledge and future voting habits, but an [academic review](https://www.researchgate.net/publication/263691305_Does_civic_education_for_young_people_increase_political_participation_A_systematic_review) of nine studies by Nathan Manning and Kathy Edwards of the University of Bradford and RMIT University, respectively, found little evidence that better civics knowledge improved civic engagement. For instance, “various civic education programmes have little or no effect on voting,” Manning and Edwards noted, though political _expression_ seems to increase. Even if students don’t vote or get involved in their communities, they at least know what they believe.
+
+To ensure that students understand American history, though, the foundation needs to be laid before they reach college. Most states require only one or two semesters of civics education in high school. And more schools are focusing on science, technology, engineering, and mathematics classes as STEM becomes a [higher priority](https://www.theatlantic.com/education/archive/2015/09/civic-education-citizenship-test/405889/) than cultural knowledge. Students, then, have less pressure on them to take civics knowledge seriously. Student motivation matters when it comes to learning, and with less pressure, they might be less motivated to study.
+
+Nor are high schools using their time wisely in teaching it. Bryan Caplan puts it succinctly in his _The Case Against Education:_
+
+“The average American high school graduate completes four years of history/social studies coursework. Four years: ample time to learn the ABCs of history and civics by heart, to acquire the knowledge base to discuss America’s past, present, and future. Yet few adults possess this knowledge. If we owe everything we know about history and civics to history and civics classes, we owe next to nothing.”
+
+This quagmire of ignorance gives colleges an opportunity. First, the research on how civics education affects students is thin and low-quality and academics can do better research to understand the problem. Second, colleges can teach _all_ students American history to fulfill part of their public mission. Even if college graduates don’t vote more as a result, colleges provide a public service in ensuring students understand the good and the bad of America’s past. A college education, after all, isn’t only vocational. The University of North Carolina declares itself “dedicated to the service of North Carolina and its people” in its mission statement like many other public universities do for their respective states. Perpetuating America’s history, tradition, and civic values seems a wise way to spend some of the money that citizens send to universities across the country.
+
+—
+
+_This [article](https://www.jamesgmartin.center/2018/07/colleges-reject-duty-to-teach-libertys-framework/) was republished with permission from The James G. Martin Center fro Academic Renewal._ 
+
+\[Image credit: pexels.com\]

@@ -1,0 +1,44 @@
+---
+import { SITE } from '../lib/site';
+import NewsletterForm from './NewsletterForm.astro';
+const year = new Date().getFullYear();
+---
+
+<div class="footer_container">
+  <div class="container">
+    <div class="footer_cols">
+      <div class="col">
+        <h2 class="box_header">About Intellectual Takeout</h2>
+        <p>{SITE.description}</p>
+        <h2 class="box_header">Get In Touch With Us</h2>
+        <p><a href="/contact/">Contact us</a> · <a href="/submissions/">Submissions</a> · <a href="/donate/">Donate</a></p>
+      </div>
+      <div class="col">
+        <h2 class="box_header">Stay in the Know</h2>
+        <p>
+          Sign up for our <em>Daily Digest</em> email newsletter to receive intellectually engaging
+          content and updates from our organization straight to your inbox.
+        </p>
+        <NewsletterForm />
+      </div>
+      <div class="col">
+        <h2 class="box_header">Contact Info</h2>
+        <h5>Physical Address</h5>
+        <p>{SITE.contact.physical[0]}<br />{SITE.contact.physical[1]}</p>
+        <h5>Mailing Address</h5>
+        <p>{SITE.contact.mailing[0]}<br />{SITE.contact.mailing[1]}</p>
+        <h5>Phone</h5>
+        <p>{SITE.contact.phone}</p>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <span>© Copyright {SITE.name} {year}</span>
+      <span class="links">
+        <a href="/about/">About</a>
+        <a href="/donate/">Donate</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/feed/">RSS</a>
+      </span>
+    </div>
+  </div>
+</div>

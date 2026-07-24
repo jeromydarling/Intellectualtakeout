@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import { allArticles } from '../lib/content';
+
+const latest = (await allArticles()).slice(0, 6);
+---
+
+<Base title="Page Not Found" noindex>
+  <div class="container">
+    <main style="text-align:center;padding:60px 0 20px;">
+      <h1 style="font-family:var(--serif);font-size:44px;">Page not found</h1>
+      <p style="font-size:20px;margin:14px 0 40px;">
+        The page you're looking for doesn't exist or may have moved. <a href="/">Return to the homepage</a>.
+      </p>
+    </main>
+    <h2 class="box_header">Latest Posts</h2>
+    <div class="posts_grid three">
+      {latest.map((a) => <PostCard article={a} />)}
+    </div>
+  </div>
+</Base>
