@@ -10,7 +10,8 @@
  *        GET /api/ask?q=...&answer=1 -> matches + an answer synthesized from
  *                                       them (Workers AI), with citations.
  */
-import { Env, json, checkAdminToken, fetchCorpusChunk, fetchCorpusManifest, getConfig, setConfig } from './lib';
+import type { Env } from './lib';
+import { json, checkAdminToken, fetchCorpusChunk, fetchCorpusManifest, getConfig, setConfig } from './lib';
 
 const DIMS = 768;
 const EMBED_MODEL = '@cf/baai/bge-base-en-v1.5';

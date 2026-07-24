@@ -17,7 +17,7 @@
  * Crons: daily digest (12:00 UTC), weekly best-of (Sun 13:00 UTC),
  * half-hourly search-index self-sync + one-article audio backfill.
  */
-import { Env } from './lib';
+import type { Env } from './lib';
 import { search, reindex, syncSearchIndex } from './search';
 import { ask, askEmbedChunk, askBuildIndex, related } from './ask';
 import { newsletter, sendDailyDigest, sendWeeklyBestOf } from './newsletter';

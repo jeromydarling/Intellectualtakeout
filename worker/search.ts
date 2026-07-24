@@ -3,7 +3,8 @@
  * loaders: a manual chunk endpoint and the cron self-sync that keeps the
  * index matching the deployed corpus.
  */
-import { Env, json, checkAdminToken, fetchCorpusChunk, fetchCorpusManifest, getConfig, setConfig } from './lib';
+import type { Env } from './lib';
+import { json, checkAdminToken, fetchCorpusChunk, fetchCorpusManifest, getConfig, setConfig } from './lib';
 
 function buildFtsQuery(input: string): string {
   const phrases: string[] = [];

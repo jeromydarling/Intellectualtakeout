@@ -5,7 +5,8 @@
  * Rendered with workers-og (satori), cached in R2.
  */
 import { ImageResponse } from 'workers-og';
-import { Env, escapeHtml } from './lib';
+import type { Env } from './lib';
+import { escapeHtml } from './lib';
 
 let fontCache: { crimson: ArrayBuffer; montserrat: ArrayBuffer } | null = null;
 
