@@ -58,8 +58,12 @@ export default {
     return env.ASSETS.fetch(request);
   },
 
-  async scheduled(_event: ScheduledEvent, env: Env, ctx: ExecutionContext): Promise<void> {
-    ctx.waitUntil(sendDailyDigest(env));
+  async scheduled(event: ScheduledEvent, env: Env, ctx: ExecutionContext): Promise<void> {
+    if (event.cron === '0 12 * * *') {
+      ctx.waitUntil(sendDailyDigest(env));
+    } else {
+      ctx.waitUntil(syncSearchIndex(env));
+    }
   },
 } satisfies ExportedHandler<Env>;
 
@@ -264,6 +268,43 @@ async function reindex(request: Request, env: Env, url: URL): Promise<Response> 
   ];
   await env.DB.batch(statements);
   return new Response(JSON.stringify({ ok: true, chunk: Number(chunkParam), indexed: docs.length }), { headers: JSON_HEADERS });
+}
+
+/**
+ * Keep the D1 FTS index in sync with the deployed corpus. Runs on a frequent
+ * cron: compares the corpus build stamp (search-data/manifest.json) with the
+ * version recorded in admin_config and reloads every chunk when they differ.
+ * Cheap no-op when nothing changed, so a fresh deploy is picked up within
+ * one cron interval with no manual reindexing.
+ */
+async function syncSearchIndex(env: Env): Promise<void> {
+  const res = await env.ASSETS.fetch(new URL('/search-data/manifest.json', env.SITE_URL));
+  if (!res.ok) return;
+  const manifest = (await res.json()) as { chunks: number; documents: number; generatedAt: string };
+
+  const current = await env.DB.prepare(`SELECT value FROM admin_config WHERE key = 'search_index_version'`).first<{ value: string }>();
+  if (current?.value === manifest.generatedAt) return;
+
+  console.log(`search index sync: ${manifest.documents} docs in ${manifest.chunks} chunks (${manifest.generatedAt})`);
+  for (let i = 0; i < manifest.chunks; i++) {
+    const asset = await env.ASSETS.fetch(new URL(`/search-data/chunk-${String(i).padStart(3, '0')}.json`, env.SITE_URL));
+    if (!asset.ok) { console.error(`chunk ${i} missing (HTTP ${asset.status})`); return; }
+    const docs = (await asset.json()) as Array<Record<string, string>>;
+    await env.DB.batch([
+      env.DB.prepare(`DELETE FROM articles_fts WHERE url IN (${docs.map(() => '?').join(',')})`).bind(...docs.map((d) => d.url)),
+      ...docs.map((d) =>
+        env.DB.prepare(
+          `INSERT INTO articles_fts (title, description, body, author, categories, tags, url, pub_date, hero)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
+        ).bind(d.title, d.description, d.body, d.author, d.categories, d.tags, d.url, d.pubDate, d.hero)
+      ),
+    ]);
+  }
+  await env.DB.prepare(
+    `INSERT INTO admin_config (key, value) VALUES ('search_index_version', ?)
+     ON CONFLICT(key) DO UPDATE SET value = excluded.value`
+  ).bind(manifest.generatedAt).run();
+  console.log('search index sync complete');
 }
 
 // ---------------------------------------------------------------- digest

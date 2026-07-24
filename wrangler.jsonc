@@ -32,6 +32,7 @@
     }
   ],
   "triggers": {
-    "crons": ["0 12 * * *"]
+    // 12:00 UTC: daily digest email; every 30 min: search-index freshness check
+    "crons": ["0 12 * * *", "*/30 * * * *"]
   }
 }
