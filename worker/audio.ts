@@ -4,7 +4,8 @@
  * /podcast.xml. Generation is incremental: the admin endpoint (or the
  * half-hourly cron) narrates one article per call, newest first.
  */
-import { Env, json, checkAdminToken, fetchCorpusManifest, fetchCorpusChunk, escapeXml } from './lib';
+import type { Env } from './lib';
+import { json, checkAdminToken, fetchCorpusManifest, fetchCorpusChunk, escapeXml } from './lib';
 
 const TTS_MODEL = '@cf/myshell-ai/melotts';
 const SEGMENT_CHARS = 1400;
@@ -12,6 +13,11 @@ const MAX_CHARS = 24000;
 
 function audioKey(path: string): string {
   return `audio${path.replace(/\/$/, '')}.mp3`;
+}
+
+function sniffMime(bytes: Uint8Array): string {
+  if (bytes.length > 4 && bytes[0] === 0x52 && bytes[1] === 0x49 && bytes[2] === 0x46 && bytes[3] === 0x46) return 'audio/wav';
+  return 'audio/mpeg';
 }
 
 async function synthesize(env: Env, text: string): Promise<Uint8Array | null> {
@@ -81,12 +87,13 @@ export async function generateNextAudio(env: Env, explicitPath?: string): Promis
   const audio = await synthesize(env, narration);
   if (!audio) return { ok: false, error: 'tts_failed', url: doc.url };
 
-  await env.MEDIA.put(audioKey(doc.url), audio, { httpMetadata: { contentType: 'audio/mpeg' } });
+  const mime = sniffMime(audio);
+  await env.MEDIA.put(audioKey(doc.url), audio, { httpMetadata: { contentType: mime } });
   const durationEstimate = Math.round(Math.min(doc.body.length, MAX_CHARS) / 16.5);
   await env.DB.prepare(
-    `INSERT INTO audio_articles (path, title, author, duration_s, bytes) VALUES (?, ?, ?, ?, ?)
-     ON CONFLICT(path) DO UPDATE SET bytes = excluded.bytes, duration_s = excluded.duration_s`
-  ).bind(doc.url, doc.title, doc.author, durationEstimate, audio.length).run();
+    `INSERT INTO audio_articles (path, title, author, duration_s, bytes, mime) VALUES (?, ?, ?, ?, ?, ?)
+     ON CONFLICT(path) DO UPDATE SET bytes = excluded.bytes, duration_s = excluded.duration_s, mime = excluded.mime`
+  ).bind(doc.url, doc.title, doc.author, durationEstimate, audio.length, mime).run();
   return { ok: true, url: doc.url, bytes: audio.length };
 }
 
@@ -94,13 +101,11 @@ export async function serveAudio(env: Env, url: URL): Promise<Response> {
   const path = url.pathname.replace(/^\/audio/, '').replace(/\.mp3$/, '') + '/';
   const obj = await env.MEDIA.get(audioKey(path));
   if (!obj) return new Response('No narration for this article (yet).', { status: 404 });
-  return new Response(obj.body, {
-    headers: {
-      'content-type': 'audio/mpeg',
-      'cache-control': 'public, max-age=31536000, immutable',
-      'accept-ranges': 'none',
-    },
-  });
+  const headers = new Headers();
+  obj.writeHttpMetadata(headers);
+  if (!headers.has('content-type')) headers.set('content-type', 'audio/mpeg');
+  headers.set('cache-control', 'public, max-age=31536000, immutable');
+  return new Response(obj.body, { headers });
 }
 
 export async function audioStatus(env: Env, url: URL): Promise<Response> {
@@ -126,7 +131,7 @@ export async function podcastFeed(env: Env): Promise<Response> {
       <itunes:author>${escapeXml(r.author ?? 'Intellectual Takeout')}</itunes:author>
       <itunes:duration>${r.duration_s ?? 0}</itunes:duration>
       <pubDate>${new Date(r.created_at + 'Z').toUTCString()}</pubDate>
-      <enclosure url="${env.SITE_URL}/audio${r.path.replace(/\/$/, '')}.mp3" length="${r.bytes ?? 0}" type="audio/mpeg"/>
+      <enclosure url="${env.SITE_URL}/audio${r.path.replace(/\/$/, '')}.mp3" length="${r.bytes ?? 0}" type="${r.mime ?? 'audio/mpeg'}"/>
     </item>`
     )
     .join('');

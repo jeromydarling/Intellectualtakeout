@@ -4,7 +4,8 @@
  * and a Sunday "Best of the Week" edition driven by real read counts,
  * each with an AI-drafted editor's intro and a "From the Archive" slot.
  */
-import { Env, json } from './lib';
+import type { Env } from './lib';
+import { json } from './lib';
 
 const INTRO_MODELS = ['@cf/meta/llama-3.3-70b-instruct-fp8-fast', '@cf/meta/llama-3.1-8b-instruct'];
 

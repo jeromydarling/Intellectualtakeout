@@ -3,7 +3,8 @@
  * The worker fronts every request, so article HTML responses bump a
  * (path, day) counter in D1 via waitUntil — zero latency cost to readers.
  */
-import { Env, json } from './lib';
+import type { Env } from './lib';
+import { json } from './lib';
 
 const ARTICLE_RE = /^\/\d{4}\/\d{2}\/[^/]+\/$/;
 
