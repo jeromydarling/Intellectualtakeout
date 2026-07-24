@@ -33,6 +33,7 @@ const opt = (name, dflt = '') => {
   return i >= 0 ? args[i + 1] : dflt;
 };
 
+const extractedImages = [];
 const { value: html, messages } = await mammoth.convertToHtml(
   { buffer: readFileSync(input) },
   {
@@ -44,7 +45,9 @@ const { value: html, messages } = await mammoth.convertToHtml(
       const dir = join(process.cwd(), 'drive-media');
       mkdirSync(dir, { recursive: true });
       writeFileSync(join(dir, name), Buffer.from(await image.readAsBase64String(), 'base64'));
-      return { src: `/wp-content/uploads/drive/${name}` };
+      const src = `/wp-content/uploads/drive/${name}`;
+      extractedImages.push(src);
+      return { src };
     }),
   }
 );
@@ -69,6 +72,12 @@ body = body
   })
   .join('\n')
   .trim();
+
+// The first embedded image becomes the featured image; drop its inline
+// occurrence so it doesn't render twice (hero + body).
+if (extractedImages.length) {
+  body = body.replace(new RegExp(`!\\[[^\\]]*\\]\\(${extractedImages[0].replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')}\\)\\n?`), '').trim();
+}
 
 // Title: directive > first heading > filename.
 let title = directives.title ?? '';
@@ -105,6 +114,7 @@ const fm = [
   `categories: [${categories.map((c) => JSON.stringify(c)).join(', ')}]`,
   `categorySlugs: [${categories.map((c) => JSON.stringify(c.toLowerCase().replace(/[^a-z0-9]+/g, '-'))).join(', ')}]`,
   `tags: [${tags.map((t) => JSON.stringify(t)).join(', ')}]`,
+  ...(extractedImages.length ? [`heroImage: ${JSON.stringify(extractedImages[0])}`] : []),
   '---',
 ].join('\n');
 

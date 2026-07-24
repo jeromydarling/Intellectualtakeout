@@ -5,11 +5,14 @@ import Sidebar from '../components/Sidebar.astro';
 import { allArticles, articlePath, byCategory, slugify } from '../lib/content';
 
 const articles = await allArticles();
+// Hero mosaic: newest articles in the "Featured" category (editors rotate the
+// homepage by adding/removing that category), padded with the latest posts.
 const withHero = articles.filter((a) => a.data.heroImage);
-const hero = withHero.slice(0, 5);
+const featuredPool = byCategory(withHero, 'featured');
+const hero = [...featuredPool, ...withHero.filter((a) => !featuredPool.includes(a))].slice(0, 5);
 const heroIds = new Set(hero.map((a) => a.id));
 const latest = articles.filter((a) => !heroIds.has(a.id)).slice(0, 6);
-const featured = byCategory(articles, 'featured').slice(0, 4);
+const featured = byCategory(articles, 'featured').filter((a) => !heroIds.has(a.id)).slice(0, 4);
 const culture = byCategory(articles, 'culture').slice(0, 3);
 const politics = byCategory(articles, 'politics').slice(0, 3);
 const education = byCategory(articles, 'education').slice(0, 3);
