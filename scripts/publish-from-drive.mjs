@@ -19,6 +19,7 @@
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join, basename } from 'node:path';
+import { execFileSync } from 'node:child_process';
 import mammoth from 'mammoth';
 import TurndownService from 'turndown';
 
@@ -88,7 +89,12 @@ if (!title && h1) {
 }
 if (!title) title = basename(input).replace(/\.docx$/i, '').replace(/[-_]+/g, ' ');
 
-const date = new Date(directives.publish ?? opt('date') ?? Date.now());
+const dateSrc = directives.publish || opt('date') || '';
+const date = dateSrc ? new Date(dateSrc) : new Date();
+if (isNaN(date.getTime())) {
+  console.error(`Unparseable publish date: ${JSON.stringify(dateSrc)}`);
+  process.exit(1);
+}
 const yyyy = String(date.getFullYear());
 const mm = String(date.getMonth() + 1).padStart(2, '0');
 const slug = title
@@ -98,8 +104,57 @@ const slug = title
   .replace(/^-+|-+$/g, '')
   .slice(0, 70);
 
-const author = directives.author ?? opt('author', 'Intellectual Takeout');
-const authorSlug = author.toLowerCase().replace(/[^a-z0-9]+/g, '');
+/**
+ * Byline detection, most-trusted first:
+ *   1. `Author:` directive in the document
+ *   2. filename prefix "Jane Doe - Title.docx" IF it matches a known author
+ *   3. the .docx creator metadata Word stamps automatically (dc:creator),
+ *      preferred when it matches a known author, else used if it looks like
+ *      a real full name
+ *   4. --author flag (the Drive uploader/owner — last resort)
+ * Names are matched against src/data/authors.json; known authors keep their
+ * existing slug and canonical casing, new authors are registered.
+ */
+const authorsPath = join(process.cwd(), 'src/data/authors.json');
+const knownAuthors = existsSync(authorsPath) ? JSON.parse(readFileSync(authorsPath, 'utf8')) : [];
+const norm = (s) => s.toLowerCase().normalize('NFKD').replace(/[^a-z]/g, '');
+const findKnown = (name) => (name ? knownAuthors.find((a) => norm(a.name) === norm(name)) : undefined);
+
+function docxCreator(path) {
+  try {
+    const xml = execFileSync('unzip', ['-p', path, 'docProps/core.xml'], { encoding: 'utf8', maxBuffer: 1e6 });
+    const m = /<dc:creator>([^<]{2,80})<\/dc:creator>/.exec(xml);
+    return m ? m[1].trim() : '';
+  } catch { return ''; }
+}
+
+let author = '';
+let authorSource = '';
+if (directives.author) {
+  author = directives.author; authorSource = 'directive';
+}
+if (!author) {
+  const fm = /^(.{3,50}?)\s+-\s+/.exec(basename(input));
+  if (fm && findKnown(fm[1])) { author = fm[1]; authorSource = 'filename'; }
+}
+if (!author) {
+  const creator = docxCreator(input);
+  if (creator && findKnown(creator)) { author = creator; authorSource = 'docx-metadata'; }
+  else if (creator && /^[\p{L}'.-]+\s+[\p{L}'. -]+$/u.test(creator) && !/microsoft|user|admin|owner/i.test(creator)) {
+    author = creator; authorSource = 'docx-metadata-unverified';
+  }
+}
+if (!author) { author = opt('author', 'Intellectual Takeout'); authorSource = 'uploader'; }
+
+const match = findKnown(author);
+if (match) author = match.name; // canonical casing
+const authorSlug = match?.slug ?? author.toLowerCase().replace(/[^a-z0-9]+/g, '');
+if (!match && author !== 'Intellectual Takeout') {
+  knownAuthors.push({ slug: authorSlug, name: author, count: 1 });
+  writeFileSync(authorsPath, JSON.stringify(knownAuthors, null, 1));
+  console.error(`new author registered: ${author} (${authorSlug})`);
+}
+console.error(`byline: ${author} [via ${authorSource}]`);
 const categories = (directives.category ?? opt('category', 'Culture')).split(/\s*,\s*/);
 const tags = directives.tags ? directives.tags.split(/\s*,\s*/) : [];
 const description = directives.description ?? body.replace(/[#>*_\[\]!]/g, '').replace(/\s+/g, ' ').trim().slice(0, 220);
