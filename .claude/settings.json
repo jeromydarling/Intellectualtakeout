@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git fetch*)",
+      "Bash(git pull*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(git checkout*)",
+      "Bash(git merge*)",
+      "Bash(node scripts/sync-from-wordpress.mjs*)",
+      "Bash(node scripts/publish-from-drive.mjs*)",
+      "Bash(mkdir -p public/wp-content/uploads/drive*)",
+      "Bash(mv drive-media/*)",
+      "mcp__Google_Drive__search_files",
+      "mcp__Google_Drive__get_file_metadata",
+      "mcp__Google_Drive__list_recent_files",
+      "mcp__Google_Drive__read_file_content",
+      "mcp__Google_Drive__download_file_content"
+    ]
+  }
+}
