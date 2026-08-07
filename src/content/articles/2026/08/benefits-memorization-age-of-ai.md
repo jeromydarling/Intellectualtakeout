@@ -2,7 +2,7 @@
 title: "The Benefits of Memorization in the Age of AI"
 description: "In 2014, I was a prompter for a local homeschool poetry festival. With copies of all the poems to be recited, from pre-K kids to highschoolers, I sat in the front row, ready to provide a word or a line from the poem if someone on stage lost their train of thought. That evening, I"
 pubDate: "2026-08-06T15:00:02Z"
-updatedDate: "2026-08-06T15:00:02Z"
+updatedDate: "2026-08-07T11:58:59Z"
 author: "Jeff Minick"
 authorSlug: "jeffminick"
 categories: ["Culture", "Education", "Featured"]
@@ -24,7 +24,7 @@ Right now, however, [advocates of recitations](/2024/12/are-ai-poems-better-than
 
 Enter Ian Jeffries.
 
-A student of mine from over 20 years ago, Jeffries is a computer programmer living in Pennsylvania. A few months ago, he contacted me out of the blue and explained that he was developing a [memorization site](https://1819news.com/culture/usflashcards.com).
+A student of mine from over 20 years ago, Jeffries is a computer programmer living in Pennsylvania. A few months ago, he contacted me out of the blue and explained that he was developing a [memorization site](https://usflashcards.com/).
 
 Looking through it, I found that he combined technology, some memorization tools, and practical topics to make a sort of memory gymnasium conducive to learning and mental exercise. Right now, the site offers six decks of flash cards: Art, Architecture, National Parks, Trees, Historical Events, and Constellations. His straight-up instructions explain how the images positively assist memorization, the way the card method works, and how users will soon be much more capable of making creative connections by using what they’ve memorized.
 
