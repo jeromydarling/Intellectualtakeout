@@ -2,12 +2,13 @@
 title: "Why Mysteries Are Good for the Rational Soul"
 description: "Mysteries and crime fiction hold a special kind of appeal. Just look at the immense popularity of true crime podcasts, police procedurals on network TV, or the undying interest in the works of Agatha Christie. Some of the earliest forms of literature we have are mysteries, such as “Oedipus Rex,” and"
 pubDate: "2026-09-02T16:17:53Z"
-updatedDate: "2026-09-02T16:17:53Z"
+updatedDate: "2026-09-02T18:05:22Z"
 author: "Walker Larson"
 authorSlug: "walkerlarson"
 categories: ["Culture", "Featured", "Literature", "Philosophy"]
 categorySlugs: ["culture", "featured", "literature", "philosophy"]
 tags: []
+heroImage: "/wp-content/uploads/2026/09/volodymyr-hryshchenko-ZT9gjcJog6U-unsplash-1024x683.jpg"
 wpId: "98479"
 ---
 
