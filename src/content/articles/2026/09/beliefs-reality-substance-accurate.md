@@ -2,7 +2,7 @@
 title: "Why It’s So Important That Our Beliefs About Reality Are Accurate"
 description: "Often the most difficult questions to actually answer are the simplest ones to ask. We can easily answer the question, “What is a hammer?” by simply referring to the materials, the shape, and the purpose of the hammer. It gets slightly more difficult, however, when asking a question like, “What is j"
 pubDate: "2026-09-09T15:01:51Z"
-updatedDate: "2026-09-09T15:01:51Z"
+updatedDate: "2026-09-09T16:19:09Z"
 author: "Mike Schramm"
 authorSlug: "mikeschramm"
 categories: ["Featured", "Philosophy"]
@@ -16,7 +16,7 @@ Often the [most difficult questions](/2026/09/mysteries-crime-rational-soul/) to
 
 An even deeper and more abstract question is, “What is thing-ness itself?” This moves beyond what qualities a person can observe in something and into the realm of essences. One can observe that red-ness is essential to a stop sign ([at least nowadays](https://www.rd.com/article/yellow-stop-signs/)), though this too is a human convention, but what about that which differentiates a substance, like a noun, from an adjective, like a relation?
 
-**Aristotle’s Categories**
+### **Aristotle’s Categories**
 
 [Aristotle](/2026/07/aristotles-3-principles-logic/) provides 10 general [categories](https://classics.mit.edu/Aristotle/categories.1.1.html) to help one distinguish the essence of something: “substance, quantity, quality, relation, place, time, position, state, action, or affection.” The most important of these is the “substance,” an independent reality that can exist without any particular accident. The other categories, called accidents, are the aspects of something that can change without changing the substance itself.
 
