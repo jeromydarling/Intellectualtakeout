@@ -1,8 +1,8 @@
 ---
-title: "Live Music Builds Community. Recorded Music Doesn’t."
+title: "Live Music Matters More Now Than Ever"
 description: "Not a day goes by without seeing at least one person listening to music as they make their daily commute, eat lunch, or unwind. High schoolers wear their AirPods as they do homework in study hall; I love to bring my headphones when I go for a walk. In any public space, dozens if not"
 pubDate: "2026-09-18T16:13:54Z"
-updatedDate: "2026-09-18T16:13:54Z"
+updatedDate: "2026-09-19T19:39:41Z"
 author: "Christine Schueckler"
 authorSlug: "christineschueckler"
 categories: ["Culture", "Entertainment", "Featured"]
