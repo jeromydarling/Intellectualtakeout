@@ -187,6 +187,7 @@ a:hover { text-decoration: underline; }
 
 /* ---------- post cards ---------- */
 .columns_layout { display: grid; grid-template-columns: 1fr 330px; gap: 30px; margin-top: 30px; }
+.columns_layout > * { min-width: 0; }
 .posts_grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
 .posts_grid.three { grid-template-columns: repeat(3, 1fr); }
 .posts_grid.four { grid-template-columns: repeat(4, 1fr); gap: 18px; }
@@ -326,6 +327,7 @@ a:hover { text-decoration: underline; }
   font-size: 40px;
   line-height: 1.1;
   margin: 26px 0 14px;
+  overflow-wrap: break-word;
 }
 .article_meta {
   font-family: var(--sans);
@@ -456,6 +458,7 @@ a:hover { text-decoration: underline; }
   .posts_grid, .posts_grid.three, .posts_grid.four { grid-template-columns: 1fr; }
   .cta_row { grid-template-columns: 1fr; }
   .nav_bar li > a { font-size: 14px; padding: 8px 10px 10px; }
+  .article_main h1 { font-size: 30px; }
   .article_body { text-align: left; }
   .author_box { float: none; margin: 0 auto 20px; }
 }
