@@ -1,8 +1,8 @@
 ---
-title: "Why You Need Philosophy to DO Science"
+title: "Why You Need Philosophy to Do Science"
 description: "It is still an unfortunate assumption that science has usurped philosophy as a discipline, leaving the latter with no real consequence in the world. Even those who pay some respect to philosophy often consider it as knowledge existing in the purely subjective realm, while physical sciences (biology,"
 pubDate: "2026-10-13T16:37:29Z"
-updatedDate: "2026-10-13T16:37:29Z"
+updatedDate: "2026-10-14T13:49:03Z"
 author: "Mike Schramm"
 authorSlug: "mikeschramm"
 categories: ["Culture", "Featured", "Philosophy", "Science"]
